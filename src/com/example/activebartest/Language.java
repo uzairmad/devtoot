@@ -1,5 +1,7 @@
 package com.example.activebartest;
 
+import java.util.Comparator;
+
 import android.os.Parcel;
 import android.os.Parcelable;
 
@@ -11,12 +13,18 @@ public class Language implements Parcelable {
 	String history;
 	String description;
 
-	Language(String name, String langURL, String programURL) {
+	Language(String name) {
 
 		this.name = name;
-		this.langURL = langURL;
-		this.programURL = programURL;
+		
+	}
 
+	public void setLangURL(String langURL) {
+		this.langURL = langURL;
+	}
+
+	public void setProgramURL(String programURL) {
+		this.programURL = programURL;
 	}
 
 	public void setHistory(String history) {
@@ -59,15 +67,19 @@ public class Language implements Parcelable {
 		// TODO Auto-generated method stub
 		return 0;
 	}
+	
+	
 
 	@Override
 	public void writeToParcel(Parcel dest, int flags) {
-		// write your object's data to the passed-in Parcel
+		// write your object's data to the passed-in Parcel in order they were added
 		dest.writeString(name);
+		dest.writeString(description);
+		dest.writeString(history);
 		dest.writeString(langURL);
 		dest.writeString(programURL);
-		dest.writeString(history);
-		dest.writeString(description);
+		
+		
 	}
 
 	// this is used to regenerate your object. All Parcelables must have a
@@ -82,14 +94,22 @@ public class Language implements Parcelable {
 		}
 	};
 
-	// parcel part
+	// parcel part - needs to be in order that fields were set
 	public Language(Parcel in) {
 
-		this.name = in.readString();
+		this.name = in.readString();	
+		this.description = in.readString();
+		this.history = in.readString();
 		this.langURL = in.readString();
 		this.programURL = in.readString();
-		this.history = in.readString();
-		this.description = in.readString();
+		
 	}
-
+	
+	//define inner class to compare Authors by name
+    static class NameComparator implements Comparator<Language> {
+   @Override
+   public int compare(Language a, Language b) {
+       return a.name.compareToIgnoreCase(b.name);
+   }
+    }
 }
