@@ -1,13 +1,37 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+
     <string name="app_name">DevToot</string>
     <string name="action_settings">Settings</string>
     <string name="action_search"></string>
     <string name="title_activity_results">Results</string>
     <string name="title_activity_language_options">LanguageOptions</string>
     <string name="extra_object">extra.object</string>
-    <string name="title_activity_history">HistoryActivity</string> 
-         <string name="action1">Type</string>
+    <string name="title_activity_history">HistoryActivity</string>
+    <string name="action1">Type</string>
     <string name="action2">Alphabetical</string>
-        <string name="action_sort"></string>
+    <string name="action_sort"></string>
+    <string name="installing_java">https://www.youtube.com/watch?v=v9_K5plEOBU</string>
+    <string name="installing_jdk">https://www.youtube.com/watch?v=asoDE3AQXBA</string>
+    <string name="java_hello_world">https://www.youtube.com/watch?v=bdvp2rwCKmM</string>
+    <string name="installing_cpp">https://www.youtube.com/watch?v=X44mdAaXDnU</string>
+    <string name="cpp_hello_world">https://www.youtube.com/watch?v=M3jeozLUr8w</string>
+    <string name="installing_python">https://www.youtube.com/watch?v=FpTiE0D4Zs8</string>
+    <string name="python_hello_world">https://www.youtube.com/watch?v=XEaRkxzJ4x0</string>
+    <string name="installing_ruby">https://www.youtube.com/watch?v=WJlfVjGt6Hg</string>
+    <string name="ruby_hello_world">https://www.youtube.com/watch?v=RDqJUU7XmLs</string>
+    <string name="installing_perl">https://www.youtube.com/watch?v=CIFXbNDbUfs</string>
+    <string name="perl_hello_world">https://www.youtube.com/watch?v=ijbnQpyl3EI</string>
+    <string name="installing_php">https://www.youtube.com/watch?v=EwJujkxYLZs</string>
+    <string name="php_hello_world">https://www.youtube.com/watch?v=ZdP0KM49IVk</string>
+    <string name="installing_csharp">https://www.youtube.com/watch?v=x_9lfHjYtVg</string>
+    <string name="csharp_hello_world">https://www.youtube.com/watch?v=krxYDsee2cQ</string>
+    <string name="vbscript_hello_world">https://www.youtube.com/watch?v=NwIOuZZqolE</string>
+    <string name="installing_javascript">https://www.youtube.com/watch?v=-jWxiPWcsoY</string>
+    <string name="javascript_hello_world">https://www.youtube.com/watch?v=21zG6Lsfe0k</string>
+    <string name="installing_html">https://www.youtube.com/watch?v=ixONl1iMucs</string>
+    <string name="html_hello_world">https://www.youtube.com/watch?v=NQ20m7FOt3Y</string>
+    <string name="installing_sql">https://www.youtube.com/watch?v=4WEFTQ3VJNg</string>
+    <string name="sql_hello_world">https://www.youtube.com/watch?v=hBBFQgZsWiQ</string>
+
 </resources>
