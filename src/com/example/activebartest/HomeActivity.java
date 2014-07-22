@@ -1,16 +1,15 @@
 package com.example.activebartest;
 
 import java.util.ArrayList;
-import android.content.Context;
+import java.util.Collections;
+
 import android.content.Intent;
-import android.net.Uri;
 import android.os.Bundle;
 import android.support.v4.view.MenuItemCompat;
 import android.support.v7.app.ActionBarActivity;
 import android.support.v7.widget.PopupMenu;
-import android.support.v7.widget.SearchView;
 import android.support.v7.widget.PopupMenu.OnMenuItemClickListener;
-import android.util.Log;
+import android.support.v7.widget.SearchView;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
@@ -20,7 +19,6 @@ import android.widget.ExpandableListView;
 import android.widget.ExpandableListView.OnChildClickListener;
 import android.widget.ListView;
 import android.widget.TextView;
-import android.widget.Toast;
 
 public class HomeActivity extends ActionBarActivity implements
 		SearchView.OnQueryTextListener {
@@ -58,37 +56,129 @@ public class HomeActivity extends ActionBarActivity implements
 
 	public void loadLangArray() {
 
-		Language java = new Language("Java", "https://www.youtube.com", // URL
-																		// for
-																		// installing
-																		// Java
-																		// video
-				"https://www.youtube.com");// URL for first java program video
-		Language SQL = new Language("SQL", "https://www.youtube.com", // same as
-																		// above
-				"https://www.youtube.com");
-		Language Perl = new Language("Perl", "https://www.youtube.com",
-				"https://www.youtube.com");
-		Language PHP = new Language("PHP", "https://www.youtube.com",
-				"https://www.youtube.com");
-		java.setHistory("Add History for Java "); // Enter text for history
-		java.setDescription("Java is an object-oriented programming language developed "
-				+ "by Sun Microsystems. Java is a platform-independent, multi-threaded programming "
-				+ "environment designed for creating programs and applications for the Internet and "
-				+ "Intranets."); // Enter text for description
-		SQL.setHistory(" ");
-		Perl.setHistory("");
-		PHP.setHistory(" ");
+		//Java
+				Language java = new Language("Java");//,"Compiled"
+				java.setDescription("This is a discription for Java");
+				java.setHistory("This is the history about Java");
+				java.setLangURL(getString(R.string.installing_java));
+				java.setProgramURL(getString(R.string.java_hello_world));
 
-		listViewArrayList.add(java.getname()); // add name to ListView
-		listViewArrayList.add(SQL.getname());
-		listViewArrayList.add(Perl.getname());
-		listViewArrayList.add(PHP.getname());
+				//C++
+				Language cplusplus = new Language("C++");//,"Compiled"
+				cplusplus.setDescription("This is a discription for C++");
+				cplusplus.setHistory("This is the history about C++");
+				cplusplus.setLangURL(getString(R.string.installing_cpp));
+				cplusplus.setProgramURL(getString(R.string.cpp_hello_world));
 
-		languageArray.add(java); // add objects to Language arrayList
-		languageArray.add(Perl);
-		languageArray.add(PHP);
-		languageArray.add(SQL);
+				//Ruby
+				Language ruby = new Language("Ruby"); //,"Interpreted"
+				ruby.setDescription("This is a discription for Ruby");
+				ruby.setHistory("This is the history about Ruby");
+				ruby.setLangURL(getString(R.string.installing_ruby));
+				ruby.setProgramURL(getString(R.string.ruby_hello_world));
+
+				//Perl
+				Language perl = new Language("Perl");//,"Interpreted"
+				perl.setDescription("This is a discription for Perl");
+				perl.setHistory("This is the history about Perl");
+				perl.setLangURL(getString(R.string.installing_perl));
+				perl.setProgramURL(getString(R.string.perl_hello_world));
+
+				//Python
+				Language python = new Language("Python");//,"Interpreted"
+				python.setDescription("This is a discription for Python");
+				python.setHistory("This is the history about Python");
+				python.setLangURL(getString(R.string.installing_python));
+				python.setProgramURL(getString(R.string.python_hello_world));
+
+				//PHP
+				Language php = new Language("PHP");//,"web"
+				php.setDescription("This is a discription for PHP");
+				php.setHistory("This is the history about PHP");
+				php.setLangURL(getString(R.string.installing_php));
+				php.setProgramURL(getString(R.string.php_hello_world));
+
+				//C#
+				Language csharp = new Language("C#");//,"Compiled"
+				csharp.setDescription("This is a discription for C#");
+				csharp.setHistory("This is the history about C#");
+				csharp.setLangURL(getString(R.string.installing_csharp));
+				csharp.setProgramURL(getString(R.string.csharp_hello_world));
+
+				//Objective C
+				Language objectivec = new Language("Objective C");//,"Compiled"
+				objectivec.setDescription("This is a discription for Objective C");
+				objectivec.setHistory("This is the history about Objective C");
+				objectivec.setLangURL("www.youtube.com");
+				objectivec.setProgramURL("www.youtube.com");
+
+				//JavaScript
+				Language javascript = new Language("JavaScript");//,"web"
+				javascript.setDescription("This is a discription for JavaScript");
+				javascript.setHistory("This is the history about JavaScript");
+				javascript.setLangURL(getString(R.string.installing_javascript));
+				javascript.setProgramURL(getString(R.string.javascript_hello_world));
+
+				//HTML
+				Language html = new Language("HTML");//,"web"
+				html.setDescription("This is a discription for HTML");
+				html.setHistory("This is the history about HTML");
+				html.setLangURL(getString(R.string.installing_html));
+				html.setProgramURL(getString(R.string.html_hello_world));
+
+				//Visual Basic
+				Language visualbasic = new Language("Visual Basic");//,"Compiled"
+				visualbasic.setDescription("This is a discription for Visual Basic");
+				visualbasic.setHistory("This is the history about Visual Basic");
+				visualbasic.setLangURL("www.youtube.com");
+				visualbasic.setProgramURL("www.youtube.com");
+
+				//SQL
+				Language sql = new Language("SQL");//"DB"
+				sql.setDescription("This is a discription for SQL");
+				sql.setHistory("This is the history about SQL");
+				sql.setLangURL(getString(R.string.installing_sql));
+				sql.setProgramURL(getString(R.string.sql_hello_world));
+
+				//MongoDB
+				Language mongodb = new Language("MongoDB");//,"DB"
+				mongodb.setDescription("This is a discription for MongoDB");
+				mongodb.setHistory("This is the history about MongoDB");
+				mongodb.setLangURL("www.youtube.com");
+				mongodb.setProgramURL("www.youtube.com");
+
+				//VBScript
+				Language vbscript = new Language("VBScript");//,"Interpreted"
+				vbscript.setDescription("This is a discription for VBScript");
+				vbscript.setHistory("This is the history about VBSCript");
+				vbscript.setLangURL("Nothing to install");
+				vbscript.setProgramURL(getString(R.string.vbscript_hello_world));
+				
+				languageArray.add(java); // add objects to Language arrayList
+				languageArray.add(perl);
+				languageArray.add(cplusplus);
+				languageArray.add(vbscript);
+				languageArray.add(perl);
+				languageArray.add(mongodb);
+				languageArray.add(sql);
+				languageArray.add(csharp);
+				languageArray.add(php);
+				languageArray.add(python);
+				languageArray.add(html);
+				languageArray.add(visualbasic);
+				languageArray.add(objectivec);
+				languageArray.add(ruby);
+				
+				//sorry removed your sort, theres already an implementation to do this in one line if Language implements a Comparator
+			Collections.sort(languageArray, new Language.NameComparator()); 
+			    
+			  //add name to ListView ordered list view		
+				for (int i=0; i < languageArray.size(); i++) {
+					listViewArrayList.add(languageArray.get(i).getname());
+				}
+
+	
+		
 
 	}
 
