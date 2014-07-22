@@ -55,6 +55,7 @@ public class CustomAdapter extends BaseExpandableListAdapter {
 
 		tv.setText(childList[groupPosition][childPosition]);
 		tv.setPadding(30, 10, 10, 10);
+	
 		
 
 		return tv;

@@ -158,7 +158,6 @@ public class HomeActivity extends ActionBarActivity implements
 				languageArray.add(perl);
 				languageArray.add(cplusplus);
 				languageArray.add(vbscript);
-				languageArray.add(perl);
 				languageArray.add(mongodb);
 				languageArray.add(sql);
 				languageArray.add(csharp);
@@ -166,6 +165,7 @@ public class HomeActivity extends ActionBarActivity implements
 				languageArray.add(python);
 				languageArray.add(html);
 				languageArray.add(visualbasic);
+				languageArray.add(javascript);
 				languageArray.add(objectivec);
 				languageArray.add(ruby);
 				
