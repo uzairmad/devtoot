@@ -15,7 +15,7 @@ import android.widget.TextView;
 public class SearchActivity extends ActionBarActivity {
 	TextView tx;
 	int index = 0;
-	boolean langOk = false;
+	boolean resultFound = false;
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -30,18 +30,22 @@ public class SearchActivity extends ActionBarActivity {
 		for (int i = 0; i < HomeActivity.languageArray.size(); i++) {
 
 			String language = HomeActivity.languageArray.get(i).getname();
+			
+			String language_nonCase = language.toLowerCase(); //cast language name to lowercase
+			String result_nonCase = resultLang.toLowerCase(); //cast search term to lowercase
 
-			if (resultLang.equals(language)) {
+			if (result_nonCase.equals(language_nonCase)) { //compare lowecase terms 
 
 				index = i;
-				langOk = true;
+				resultFound = true;
 
 			}
 		}
 
-		if (langOk) {
+		if (resultFound) {
 			//result found and language will be displayed
-			tx.setText(resultLang + "                       ");
+			String properResult = HomeActivity.languageArray.get(index).getname();
+			tx.setText(properResult + "                            ");
 			
 		} else {
 			//no results
@@ -55,7 +59,7 @@ public class SearchActivity extends ActionBarActivity {
 			public void onClick(View v) {
 
 				// make sure result was found before we do somethinng with click
-				if (langOk) {
+				if (resultFound) {
 					// start activity of options for language
 
 					Language lang = HomeActivity.languageArray.get(index);

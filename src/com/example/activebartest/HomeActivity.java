@@ -181,6 +181,13 @@ public class HomeActivity extends ActionBarActivity implements
 		
 
 	}
+	
+	@Override
+	public void onBackPressed() {
+	  
+		languageArray.clear();
+		finish();
+	}
 
 	@Override
 	public boolean onCreateOptionsMenu(Menu menu) {
