@@ -1271,10 +1271,32 @@ containing a value of this type.
         public static final int action_settings=0x7f0a000e;
         public static final int action_sort=0x7f0a0016;
         public static final int app_name=0x7f0a000d;
+        public static final int cpp_hello_world=0x7f0a001b;
+        public static final int csharp_hello_world=0x7f0a0025;
         public static final int extra_object=0x7f0a0012;
+        public static final int html_hello_world=0x7f0a002a;
+        public static final int installing_cpp=0x7f0a001a;
+        public static final int installing_csharp=0x7f0a0024;
+        public static final int installing_html=0x7f0a0029;
+        public static final int installing_java=0x7f0a0017;
+        public static final int installing_javascript=0x7f0a0027;
+        public static final int installing_jdk=0x7f0a0018;
+        public static final int installing_perl=0x7f0a0020;
+        public static final int installing_php=0x7f0a0022;
+        public static final int installing_python=0x7f0a001c;
+        public static final int installing_ruby=0x7f0a001e;
+        public static final int installing_sql=0x7f0a002b;
+        public static final int java_hello_world=0x7f0a0019;
+        public static final int javascript_hello_world=0x7f0a0028;
+        public static final int perl_hello_world=0x7f0a0021;
+        public static final int php_hello_world=0x7f0a0023;
+        public static final int python_hello_world=0x7f0a001d;
+        public static final int ruby_hello_world=0x7f0a001f;
+        public static final int sql_hello_world=0x7f0a002c;
         public static final int title_activity_history=0x7f0a0013;
         public static final int title_activity_language_options=0x7f0a0011;
         public static final int title_activity_results=0x7f0a0010;
+        public static final int vbscript_hello_world=0x7f0a0026;
     }
     public static final class style {
         /** 
