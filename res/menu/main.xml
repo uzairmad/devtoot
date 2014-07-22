@@ -5,21 +5,16 @@
 
        <item
         android:id="@+id/action_search"
-        android:title="@string/action_search"
         android:icon="@drawable/ic_action_search"
+        android:title="@string/action_search"
         app:actionViewClass="android.support.v7.widget.SearchView"
-        app:showAsAction="ifRoom" />
-       <item
-        android:id="@+id/action_settings"
-        android:title="@string/action_settings"
-        app:showAsAction="never" />
-         <item
-        android:id="@+id/action_type"
-        android:title="@string/action_type"
-        app:showAsAction="never" />
-           <item
-        android:id="@+id/action_alpha"
-        android:title="@string/action_alpha"
-        app:showAsAction="never" />
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/action_sort"
+        android:icon="@drawable/ic_action_sort_by_size"
+        android:title="@string/action_sort"
+        app:showAsAction="ifRoom"/>
+ 
+  
 
 </menu>

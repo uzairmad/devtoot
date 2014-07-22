@@ -38,6 +38,7 @@
             android:name="com.example.activebartest.HistoryActivity"
             android:label="@string/title_activity_history" >
         </activity>
+       
     </application>
 
 </manifest>

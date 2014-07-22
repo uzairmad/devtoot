@@ -14,14 +14,14 @@ import android.widget.TextView;
 public class CustomAdapter extends BaseExpandableListAdapter {
 
 	private Context context;
-	String parentList[] = {"Object-Oriented Languages", "Scripting", "Web Languages",
+	String parentList[] = {"Compiled", "Interpreted", "Web Languages",
 			"Database"};
 
 	//Insert languages based on type location in specified arrays within multiarray
 	static String childList[][] = {
 	   
-    //Object oriented     //Scripting     //Web        //Database
-	{ "Java" },           { "Perl" },    { "PHP" },   { "SQL" }
+    //Object oriented     //Interpreted     //Web        //Database
+	{ "Java", "C++", "C#", "Objective C", "Visual Basic" },           { "Perl" },    { "PHP" },   { "SQL" }
  
 	};
 
@@ -52,7 +52,7 @@ public class CustomAdapter extends BaseExpandableListAdapter {
 
 		tv.setText(childList[groupPosition][childPosition]);
 		tv.setPadding(30, 10, 10, 10);
-		tv.setTextSize(10);
+		
 
 		return tv;
 	}
@@ -89,9 +89,12 @@ public class CustomAdapter extends BaseExpandableListAdapter {
 		TextView tv = new TextView(context);
 
 		tv.setText(parentList[groupPosition]);
-		tv.setPadding(50, 10, 10, 10);
-		tv.setTextSize(15);
-		tv.setTextColor(Color.CYAN);
+		tv.setBackgroundColor(Color.parseColor("#3059AC")); //cobaltish
+		tv.setTextColor(Color.parseColor("#D8D8DB")); //light grey
+		
+		
+		tv.setPadding(50, 20, 20, 20);
+		
 
 		return tv;
 

@@ -41,7 +41,8 @@ public class SearchActivity extends ActionBarActivity {
 
 		if (langOk) {
 			//result found and language will be displayed
-			tx.setText(resultLang);
+			tx.setText(resultLang + "                       ");
+			
 		} else {
 			//no results
 			tx.setText("No Result Found For" + resultLang);

@@ -1,14 +1,15 @@
 package com.example.activebartest;
 
 import java.util.ArrayList;
-
 import android.content.Context;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
 import android.support.v4.view.MenuItemCompat;
 import android.support.v7.app.ActionBarActivity;
+import android.support.v7.widget.PopupMenu;
 import android.support.v7.widget.SearchView;
+import android.support.v7.widget.PopupMenu.OnMenuItemClickListener;
 import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -57,33 +58,34 @@ public class HomeActivity extends ActionBarActivity implements
 
 	public void loadLangArray() {
 
-		Language java = new Language("Java",
-				"https://www.youtube.com", //URL for installing Java video
-				"https://www.youtube.com");//URL for first java program video
-		Language SQL = new Language("SQL",
-				"https://www.youtube.com", //same as above
+		Language java = new Language("Java", "https://www.youtube.com", // URL
+																		// for
+																		// installing
+																		// Java
+																		// video
+				"https://www.youtube.com");// URL for first java program video
+		Language SQL = new Language("SQL", "https://www.youtube.com", // same as
+																		// above
 				"https://www.youtube.com");
-		Language Perl = new Language("Perl",
-				"https://www.youtube.com",
+		Language Perl = new Language("Perl", "https://www.youtube.com",
 				"https://www.youtube.com");
-		Language PHP = new Language("PHP",
-				"https://www.youtube.com",
+		Language PHP = new Language("PHP", "https://www.youtube.com",
 				"https://www.youtube.com");
-		java.setHistory("Add History for Java "); //Enter text for history
-		java.setDescription("Java is an object-oriented programming language developed " +
-				"by Sun Microsystems. Java is a platform-independent, multi-threaded programming " +
-				"environment designed for creating programs and applications for the Internet and " +
-				"Intranets."); //Enter text for description
-		SQL.setHistory(" "); 
+		java.setHistory("Add History for Java "); // Enter text for history
+		java.setDescription("Java is an object-oriented programming language developed "
+				+ "by Sun Microsystems. Java is a platform-independent, multi-threaded programming "
+				+ "environment designed for creating programs and applications for the Internet and "
+				+ "Intranets."); // Enter text for description
+		SQL.setHistory(" ");
 		Perl.setHistory("");
 		PHP.setHistory(" ");
-		
-		listViewArrayList.add(java.getname()); //add name to ListView
+
+		listViewArrayList.add(java.getname()); // add name to ListView
 		listViewArrayList.add(SQL.getname());
 		listViewArrayList.add(Perl.getname());
 		listViewArrayList.add(PHP.getname());
 
-		languageArray.add(java); //add objects to Language arrayList
+		languageArray.add(java); // add objects to Language arrayList
 		languageArray.add(Perl);
 		languageArray.add(PHP);
 		languageArray.add(SQL);
@@ -99,6 +101,7 @@ public class HomeActivity extends ActionBarActivity implements
 		MenuItem searchItem = menu.findItem(R.id.action_search);
 
 		mSearchView = (SearchView) MenuItemCompat.getActionView(searchItem);
+		mSearchView.setQueryHint("Search");
 		mSearchView.setOnQueryTextListener(this); // sets listeneter for changes
 													// when somoene enters stuf
 													// finto searchview, this
@@ -117,25 +120,52 @@ public class HomeActivity extends ActionBarActivity implements
 		if (id == R.id.action_settings) {
 
 			return true;
-		} else if (id == R.id.action_type) {
-
-			listview.setVisibility(View.GONE);
-			exp.setVisibility(View.VISIBLE);
-			return true;
-
-		} else if (id == R.id.action_alpha) {// remove exp
-
-			exp.setVisibility(View.GONE);
-			listview.setVisibility(View.VISIBLE);
-			return true;
-
 		} else if (id == R.id.action_search) {
 
 			mSearchView.setIconified(false);
 
 			return true;
 
+		} else if (id == R.id.action_sort) {
+			View menuItemView = findViewById(R.id.action_sort); // SAME ID AS
+																// MENU ID
+
+			PopupMenu popupMenu = new PopupMenu(this, menuItemView);
+			/** Adding menu items to the popumenu */
+			popupMenu.getMenuInflater().inflate(R.menu.popup,
+					popupMenu.getMenu());
+			/** Defining menu item click listener for the popup menu */
+			popupMenu.setOnMenuItemClickListener(new OnMenuItemClickListener() {
+
+				@Override
+				public boolean onMenuItemClick(MenuItem popItem) {
+					int popID = popItem.getItemId();
+
+					if (popID == R.id.action1) { // type
+
+						// Toast.makeText(HomeActivity.this,
+						// "You selected the action Type",
+						// Toast.LENGTH_SHORT).show();
+						listview.setVisibility(View.GONE);
+						exp.setVisibility(View.VISIBLE);
+					} else if (popID == R.id.action2) { // alpha
+
+						// Toast.makeText(HomeActivity.this,
+						// "You selected the action Alpha ",
+						// Toast.LENGTH_SHORT).show();
+						exp.setVisibility(View.GONE);
+						listview.setVisibility(View.VISIBLE);
+					}
+
+					return true;
+				}
+			});
+			// ...
+			popupMenu.show();
+			// ...
+			return true;
 		}
+
 		// return super.onOptionsItemSelected(item);
 
 		return false;

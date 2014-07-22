@@ -1,15 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-
-    <string name="app_name">ActiveBarTest</string>
-    <string name="hello_world">Hello world!</string>
+    <string name="app_name">DevToot</string>
     <string name="action_settings">Settings</string>
-    <string name="action_alpha">Alpha</string>
-    <string name="action_type">Type</string>
     <string name="action_search"></string>
     <string name="title_activity_results">Results</string>
     <string name="title_activity_language_options">LanguageOptions</string>
     <string name="extra_object">extra.object</string>
-    <string name="title_activity_history">HistoryActivity</string>
-
+    <string name="title_activity_history">HistoryActivity</string> 
+         <string name="action1">Type</string>
+    <string name="action2">Alphabetical</string>
+        <string name="action_sort"></string>
 </resources>
