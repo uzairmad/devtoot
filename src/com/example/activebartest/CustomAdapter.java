@@ -18,12 +18,15 @@ public class CustomAdapter extends BaseExpandableListAdapter {
 			"Database"};
 
 	//Insert languages based on type location in specified arrays within multiarray
-	static String childList[][] = {
-	   
-    //Object oriented     //Interpreted     //Web        //Database
-	{ "Java", "C++", "C#", "Objective C", "Visual Basic" },           { "Perl" },    { "PHP" },   { "SQL" }
+	static String childList[][] = {	   
+             
+	{ "C#", "C++", "Java", "Objective C", "Visual Basic" },      //Compiled  
+	{ "Perl",  "Python", "Ruby", "VBScript" },   //Interpreted
+	{ "HTML", "JavaScript", "PHP"},   //Web  
+	{ "MongoDB", "SQL" }     //Database
  
 	};
+	
 
 	public CustomAdapter(Context context) {
 
