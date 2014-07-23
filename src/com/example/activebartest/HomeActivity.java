@@ -65,93 +65,93 @@ public class HomeActivity extends ActionBarActivity implements
 
 				//C++
 				Language cplusplus = new Language("C++");//,"Compiled"
-				cplusplus.setDescription("This is a discription for C++");
+				cplusplus.setDescription(getString(R.string.cpp_description));
 				cplusplus.setHistory("This is the history about C++");
 				cplusplus.setLangURL(getString(R.string.installing_cpp));
 				cplusplus.setProgramURL(getString(R.string.cpp_hello_world));
 
 				//Ruby
 				Language ruby = new Language("Ruby"); //,"Interpreted"
-				ruby.setDescription("This is a discription for Ruby");
+				ruby.setDescription(getString(R.string.ruby_description));
 				ruby.setHistory("This is the history about Ruby");
 				ruby.setLangURL(getString(R.string.installing_ruby));
 				ruby.setProgramURL(getString(R.string.ruby_hello_world));
 
 				//Perl
 				Language perl = new Language("Perl");//,"Interpreted"
-				perl.setDescription("This is a discription for Perl");
+				perl.setDescription(getString(R.string.perl_description));
 				perl.setHistory("This is the history about Perl");
 				perl.setLangURL(getString(R.string.installing_perl));
 				perl.setProgramURL(getString(R.string.perl_hello_world));
 
 				//Python
 				Language python = new Language("Python");//,"Interpreted"
-				python.setDescription("This is a discription for Python");
+				python.setDescription(getString(R.string.python_description));
 				python.setHistory("This is the history about Python");
 				python.setLangURL(getString(R.string.installing_python));
 				python.setProgramURL(getString(R.string.python_hello_world));
 
 				//PHP
 				Language php = new Language("PHP");//,"web"
-				php.setDescription("This is a discription for PHP");
+				php.setDescription(getString(R.string.php_description));
 				php.setHistory("This is the history about PHP");
 				php.setLangURL(getString(R.string.installing_php));
 				php.setProgramURL(getString(R.string.php_hello_world));
 
 				//C#
 				Language csharp = new Language("C#");//,"Compiled"
-				csharp.setDescription("This is a discription for C#");
+				csharp.setDescription(getString(R.string.csharp_description));
 				csharp.setHistory("This is the history about C#");
 				csharp.setLangURL(getString(R.string.installing_csharp));
 				csharp.setProgramURL(getString(R.string.csharp_hello_world));
 
 				//Objective C
 				Language objectivec = new Language("Objective C");//,"Compiled"
-				objectivec.setDescription("This is a discription for Objective C");
+				objectivec.setDescription(getString(R.string.objectivec_description));
 				objectivec.setHistory("This is the history about Objective C");
-				objectivec.setLangURL("www.youtube.com");
-				objectivec.setProgramURL("www.youtube.com");
+				objectivec.setLangURL(getString(R.string.installing_objectivec));
+				objectivec.setProgramURL(getString(R.string.objectivec_hello_world));
 
 				//JavaScript
 				Language javascript = new Language("JavaScript");//,"web"
-				javascript.setDescription("This is a discription for JavaScript");
+				javascript.setDescription(getString(R.string.objectivec_description));
 				javascript.setHistory("This is the history about JavaScript");
 				javascript.setLangURL(getString(R.string.installing_javascript));
 				javascript.setProgramURL(getString(R.string.javascript_hello_world));
 
 				//HTML
 				Language html = new Language("HTML");//,"web"
-				html.setDescription("This is a discription for HTML");
+				html.setDescription(getString(R.string.html_description));
 				html.setHistory("This is the history about HTML");
 				html.setLangURL(getString(R.string.installing_html));
 				html.setProgramURL(getString(R.string.html_hello_world));
 
 				//Visual Basic
 				Language visualbasic = new Language("Visual Basic");//,"Compiled"
-				visualbasic.setDescription("This is a discription for Visual Basic");
+				visualbasic.setDescription(getString(R.string.vb_description));
 				visualbasic.setHistory("This is the history about Visual Basic");
-				visualbasic.setLangURL("www.youtube.com");
-				visualbasic.setProgramURL("www.youtube.com");
+				visualbasic.setLangURL(getString(R.string.installing_vb));
+				visualbasic.setProgramURL(getString(R.string.vb_hello_world));
 
 				//SQL
 				Language sql = new Language("SQL");//"DB"
-				sql.setDescription("This is a discription for SQL");
+				sql.setDescription(getString(R.string.sql_description));
 				sql.setHistory("This is the history about SQL");
 				sql.setLangURL(getString(R.string.installing_sql));
 				sql.setProgramURL(getString(R.string.sql_hello_world));
 
 				//MongoDB
 				Language mongodb = new Language("MongoDB");//,"DB"
-				mongodb.setDescription("This is a discription for MongoDB");
+				mongodb.setDescription(getString(R.string.mongodb_description));
 				mongodb.setHistory("This is the history about MongoDB");
-				mongodb.setLangURL("www.youtube.com");
-				mongodb.setProgramURL("www.youtube.com");
+				mongodb.setLangURL(getString(R.string.installing_mongodb));
+				mongodb.setProgramURL(getString(R.string.mongodb_hello_world));
 
 				//VBScript
 				Language vbscript = new Language("VBScript");//,"Interpreted"
-				vbscript.setDescription("This is a discription for VBScript");
+				vbscript.setDescription(getString(R.string.vbscript_description));
 				vbscript.setHistory("This is the history about VBSCript");
-				vbscript.setLangURL("Nothing to install");
+				vbscript.setLangURL("Nothing to install");//Check this might crash
 				vbscript.setProgramURL(getString(R.string.vbscript_hello_world));
 				
 				languageArray.add(java); // add objects to Language arrayList
