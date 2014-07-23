@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-
+	<color name="blue">#3059AC</color>
     <string name="app_name">DevToot</string>
     <string name="action_settings">Settings</string>
     <string name="action_search"></string>

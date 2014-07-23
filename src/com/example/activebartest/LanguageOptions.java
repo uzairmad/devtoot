@@ -36,7 +36,7 @@ public class LanguageOptions extends ActionBarActivity {
 
 		String name = languageObject.getname();
 		String description = languageObject.getname();
-		optionsList.add("Description");
+		optionsList.add(languageObject.getDescription());
 		optionsList.add("History of " + name);
 		optionsList.add("Installing " + name);
 		optionsList.add("Your First Program");

@@ -2,9 +2,12 @@
 <TextView xmlns:android="http://schemas.android.com/apk/res/android"
     android:id="@+id/rowTextView"   
     android:layout_width="match_parent"
-    android:layout_height="match_parent"    
-     android:textSize="24sp">   
+    android:layout_height="match_parent"  
+     android:paddingTop="2dip" 
+     android:paddingLeft="4dip"
+   >   
 
 </TextView>
 <!--   android:textColor="@color/button_text"
-     android:background="@drawable/bkg" -->
+     android:background="@drawable/bkg"
+       android:textSize="24sp" -->
