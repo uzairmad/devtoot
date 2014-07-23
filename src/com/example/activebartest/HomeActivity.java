@@ -1,5 +1,6 @@
 package com.example.activebartest;
 
+import java.net.URLEncoder;
 import java.util.ArrayList;
 import java.util.Collections;
 
@@ -54,103 +55,104 @@ public class HomeActivity extends ActionBarActivity implements
 
 	}
 
+
 	public void loadLangArray() {
 
 		//Java
 				Language java = new Language("Java");//,"Compiled"
 				java.setDescription(getString(R.string.java_description));
-				java.setHistory("This is the history about Java");
+				java.setHistory(getString(R.string.java_history));
 				java.setLangURL(getString(R.string.installing_java));
 				java.setProgramURL(getString(R.string.java_hello_world));
 
 				//C++
 				Language cplusplus = new Language("C++");//,"Compiled"
 				cplusplus.setDescription(getString(R.string.cpp_description));
-				cplusplus.setHistory("This is the history about C++");
+				cplusplus.setHistory(getString(R.string.cpp_history));
 				cplusplus.setLangURL(getString(R.string.installing_cpp));
 				cplusplus.setProgramURL(getString(R.string.cpp_hello_world));
 
 				//Ruby
 				Language ruby = new Language("Ruby"); //,"Interpreted"
 				ruby.setDescription(getString(R.string.ruby_description));
-				ruby.setHistory("This is the history about Ruby");
+				ruby.setHistory(getString(R.string.ruby_history));
 				ruby.setLangURL(getString(R.string.installing_ruby));
 				ruby.setProgramURL(getString(R.string.ruby_hello_world));
 
 				//Perl
 				Language perl = new Language("Perl");//,"Interpreted"
 				perl.setDescription(getString(R.string.perl_description));
-				perl.setHistory("This is the history about Perl");
+				perl.setHistory(getString(R.string.perl_history));
 				perl.setLangURL(getString(R.string.installing_perl));
 				perl.setProgramURL(getString(R.string.perl_hello_world));
 
 				//Python
 				Language python = new Language("Python");//,"Interpreted"
 				python.setDescription(getString(R.string.python_description));
-				python.setHistory("This is the history about Python");
+				python.setHistory(getString(R.string.python_history));
 				python.setLangURL(getString(R.string.installing_python));
 				python.setProgramURL(getString(R.string.python_hello_world));
 
 				//PHP
 				Language php = new Language("PHP");//,"web"
 				php.setDescription(getString(R.string.php_description));
-				php.setHistory("This is the history about PHP");
+				php.setHistory(getString(R.string.php_history));
 				php.setLangURL(getString(R.string.installing_php));
 				php.setProgramURL(getString(R.string.php_hello_world));
 
 				//C#
 				Language csharp = new Language("C#");//,"Compiled"
 				csharp.setDescription(getString(R.string.csharp_description));
-				csharp.setHistory("This is the history about C#");
+				csharp.setHistory(getString(R.string.csharp_history));
 				csharp.setLangURL(getString(R.string.installing_csharp));
 				csharp.setProgramURL(getString(R.string.csharp_hello_world));
 
 				//Objective C
 				Language objectivec = new Language("Objective C");//,"Compiled"
 				objectivec.setDescription(getString(R.string.objectivec_description));
-				objectivec.setHistory("This is the history about Objective C");
+				objectivec.setHistory(getString(R.string.objectivec_history));
 				objectivec.setLangURL(getString(R.string.installing_objectivec));
 				objectivec.setProgramURL(getString(R.string.objectivec_hello_world));
 
 				//JavaScript
 				Language javascript = new Language("JavaScript");//,"web"
-				javascript.setDescription(getString(R.string.objectivec_description));
-				javascript.setHistory("This is the history about JavaScript");
+				javascript.setDescription(getString(R.string.javascript_description));
+				javascript.setHistory(getString(R.string.javascript_history));
 				javascript.setLangURL(getString(R.string.installing_javascript));
 				javascript.setProgramURL(getString(R.string.javascript_hello_world));
 
 				//HTML
 				Language html = new Language("HTML");//,"web"
 				html.setDescription(getString(R.string.html_description));
-				html.setHistory("This is the history about HTML");
+				html.setHistory(getString(R.string.html_history));
 				html.setLangURL(getString(R.string.installing_html));
 				html.setProgramURL(getString(R.string.html_hello_world));
 
 				//Visual Basic
 				Language visualbasic = new Language("Visual Basic");//,"Compiled"
 				visualbasic.setDescription(getString(R.string.vb_description));
-				visualbasic.setHistory("This is the history about Visual Basic");
+				visualbasic.setHistory(getString(R.string.vb_history));
 				visualbasic.setLangURL(getString(R.string.installing_vb));
 				visualbasic.setProgramURL(getString(R.string.vb_hello_world));
 
 				//SQL
 				Language sql = new Language("SQL");//"DB"
 				sql.setDescription(getString(R.string.sql_description));
-				sql.setHistory("This is the history about SQL");
+				sql.setHistory(getString(R.string.sql_history));
 				sql.setLangURL(getString(R.string.installing_sql));
 				sql.setProgramURL(getString(R.string.sql_hello_world));
 
 				//MongoDB
 				Language mongodb = new Language("MongoDB");//,"DB"
 				mongodb.setDescription(getString(R.string.mongodb_description));
-				mongodb.setHistory("This is the history about MongoDB");
+				mongodb.setHistory(getString(R.string.mongodb_history));
 				mongodb.setLangURL(getString(R.string.installing_mongodb));
 				mongodb.setProgramURL(getString(R.string.mongodb_hello_world));
 
 				//VBScript
 				Language vbscript = new Language("VBScript");//,"Interpreted"
 				vbscript.setDescription(getString(R.string.vbscript_description));
-				vbscript.setHistory("This is the history about VBSCript");
+				vbscript.setHistory(getString(R.string.vbscript_history));
 				vbscript.setLangURL("Nothing to install");//Check this might crash
 				vbscript.setProgramURL(getString(R.string.vbscript_hello_world));
 				
@@ -340,3 +342,6 @@ public class HomeActivity extends ActionBarActivity implements
 
 	}
 }
+
+
+

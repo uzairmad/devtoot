@@ -1,4 +1,4 @@
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/container"
     android:layout_width="match_parent"
@@ -6,12 +6,19 @@
     tools:context="com.example.activebartest.HistoryActivity"
     tools:ignore="MergeRootFrame" >
 
-    <TextView
+     <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <TextView
         android:id="@+id/history_view"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Medium Text"
+        android:layout_marginLeft="3dip"
         android:textAppearance="?android:attr/textAppearanceMedium" />
 
-</FrameLayout>
+    </ScrollView>
+    
+
+</LinearLayout>
 

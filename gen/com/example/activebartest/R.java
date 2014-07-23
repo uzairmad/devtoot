@@ -1227,7 +1227,6 @@ containing a value of this type.
         public static final int main=0x7f0c0002;
         public static final int popup=0x7f0c0003;
         public static final int results=0x7f0c0004;
-        public static final int test_spinner=0x7f0c0005;
     }
     public static final class string {
         /**  Content description for the action bar "home" affordance. [CHAR LIMIT=NONE] 
@@ -1278,11 +1277,14 @@ containing a value of this type.
         public static final int app_name=0x7f0a000d;
         public static final int cpp_description=0x7f0a0034;
         public static final int cpp_hello_world=0x7f0a001b;
+        public static final int cpp_history=0x7f0a0042;
         public static final int csharp_description=0x7f0a0039;
         public static final int csharp_hello_world=0x7f0a0025;
+        public static final int csharp_history=0x7f0a0047;
         public static final int extra_object=0x7f0a0012;
         public static final int html_description=0x7f0a003c;
         public static final int html_hello_world=0x7f0a002a;
+        public static final int html_history=0x7f0a004a;
         public static final int installing_cpp=0x7f0a001a;
         public static final int installing_csharp=0x7f0a0024;
         public static final int installing_html=0x7f0a0029;
@@ -1299,29 +1301,40 @@ containing a value of this type.
         public static final int installing_vb=0x7f0a002d;
         public static final int java_description=0x7f0a0033;
         public static final int java_hello_world=0x7f0a0019;
+        public static final int java_history=0x7f0a0041;
         public static final int javascript_description=0x7f0a003b;
         public static final int javascript_hello_world=0x7f0a0028;
+        public static final int javascript_history=0x7f0a0049;
         public static final int mongodb_description=0x7f0a003f;
         public static final int mongodb_hello_world=0x7f0a0030;
+        public static final int mongodb_history=0x7f0a004d;
         public static final int objectivec_description=0x7f0a0040;
         public static final int objectivec_hello_world=0x7f0a0032;
+        public static final int objectivec_history=0x7f0a004e;
         public static final int perl_description=0x7f0a0036;
         public static final int perl_hello_world=0x7f0a0021;
+        public static final int perl_history=0x7f0a0044;
         public static final int php_description=0x7f0a0038;
         public static final int php_hello_world=0x7f0a0023;
+        public static final int php_history=0x7f0a0046;
         public static final int python_description=0x7f0a0037;
         public static final int python_hello_world=0x7f0a001d;
+        public static final int python_history=0x7f0a0045;
         public static final int ruby_description=0x7f0a0035;
         public static final int ruby_hello_world=0x7f0a001f;
+        public static final int ruby_history=0x7f0a0043;
         public static final int sql_description=0x7f0a003d;
         public static final int sql_hello_world=0x7f0a002c;
+        public static final int sql_history=0x7f0a004b;
         public static final int title_activity_history=0x7f0a0013;
         public static final int title_activity_language_options=0x7f0a0011;
         public static final int title_activity_results=0x7f0a0010;
         public static final int vb_description=0x7f0a003e;
         public static final int vb_hello_world=0x7f0a002e;
+        public static final int vb_history=0x7f0a004c;
         public static final int vbscript_description=0x7f0a003a;
         public static final int vbscript_hello_world=0x7f0a0026;
+        public static final int vbscript_history=0x7f0a0048;
     }
     public static final class style {
         /** 

@@ -53,5 +53,118 @@
     <string name="vb_description">Visual Basic is an event driven language focused on rapid graphical user interface development.</string>
     <string name="mongodb_description">MongoDB is a cross-platform NoSQL database language that is free and open-source.</string>
     <string name="objectivec_description">Objective C is a general-purpose, object-oriented programming language used for creating iOS and OS X applications.</string>
+    
+    <string name="java_history">Java was developed in 1990 by Sun engineer James Gosling as a language that would serve as the brains for smart appliances (interactive TVs, omniscient ovens). Gosling was unhappy with the results he was getting by writing programs with C++, another programming language, so he holed up in his office and wrote a new language to better suit his needs.
+Gosling named his new language Oak after a tree he could see from his office window; it went by the name Green later, and was later renamed Java, from Java coffee, said to be consumed in large quantities by the language\'s creators. The language was part of Sun\’s strategy to make millions when interactive TV became a multimillion-dollar industry. That still hasn’t happened today, but something completely different took place for Gosling\’s new language.
+In a fortuitous circumstance that World Wide Web became popular, many of the qualities that made Gosling\’s language good on its appliance project made it suitable for adaptation to the Web. Sun developers devised a way for programs to be run safely from web pages and chose a catchy new name to accompany the language\’s new focus: Java.
+Although Java can be used for many other things, the Web provided the showcase it needed to capture international attention. A programmer who puts a Java program on a web page makes it instantly accessible to the entire Web-surfing planet. Because Java was the first technology that could offer this capability, it became the first computer language to receive star treatment in the media.
+Java is a general-purpose, concurrent, class-based, object-oriented language that is specifically designed to have as few implementation dependencies as possible. It is intended to let application developers "write once, run anywhere" (WORA), meaning that code that runs on one platform does not need to be recompiled to run on another. Java is currently one of the most popular programming languages in use, particularly for client-server web applications, with a reported 10 million users. 
+Source: http://bpptik.kominfo.go.id/index.php/en/article/143-a-brief-history-of-java
+        
+    </string>
+    <string name="cpp_history">In the early 1970s, Dennis Ritchie of Bell Laboratories was engaged in a project to develop a new operating system.  Ritchie discovered that in order to accomplish his task he needed the use of a programming language that was concise and that produced compact and speedy programs. This need led Ritchie to develop the programming language called C.
+
+     In the early 1980\'s, also at Bell Laboratories, another programming language was created which was based upon the C language.  This new language was developed by Bjarne Stroustrup and was called C++.  Stroustrup states that the purpose of C++ is to make writing good programs easier and more pleasant for the individual programmer.  When he designed C++, he added OOP (Object Oriented Programming) features to C without significantly changing the C component.  Thus C++ is a "relative" (called a superset) of C, meaning that any valid C program is also a valid C++ program.
+
+     There are several versions of the C++ language, of which Visual C++ is only one.  Other dialects include Borland C++, Turbo C++, and Code Warrior (Mac).  All of these software packages enable you to create computer programs with C++, but they all implement the C++ language in a slightly different manner.  In an attempt to maintain portability of both the C and C++ languages, the American National Standards Institute (ANSI) developed a standard of consistency for C and C++ programming.  While we will be working primarily with this ANSI standard, we will also be examining the idiosyncrasies of Microsoft Visual C++ 6.0.
+     Source: http://mathbits.com/MathBits/CompSci/Introduction/history.htm
+        
+    </string>
+    <string name="ruby_history">The history of Ruby is interesting. Ruby is a general purpose object oriented programming language that is written in C. It was built combining features of four other programming languages:  Smarttalk, Eiffel, Lisp, and Perl. Ruby programmers took the best of each those four programming languages and combined them to create Ruby.
+
+Ruby was designed with simplicity in mind. The Ruby programmers did not want individual programmers to re-invent the wheel for common tasks over and over. They wanted a programming language that could easily re-create common tasks. The only reason to have to program a common task was if the programmer wanted to step outside the normal functions of Ruby.
+
+In February 1993, Yukihiro Matsumoto thought up the idea of a new programming language. He has stated the reason for his decision to develop a new programming language was “I wanted a scripting language that was more powerful than Perl, and more object oriented than Python. That’s why I decided to design my own language.”
+
+During an online 1993 chat with friend, Keiju Ishitsuka, names were discussed for his new programming language. Those names were eventually whittled down to just two names: Coral and Ruby. After their conversation, Matsumoto considered both names but finally decided on Ruby because it was the birthstone of one of his co-workers and Ruby was born.
+
+In December 1995, Ruby version 0.95 was released in Japanese domestic newsgroups. Of course, it did not stay at version 0.95 very long because three later versions were released in the next two days. During the first three days, a Ruby mailing list was created. It continues to this day.
+
+Even these earliest versions had many of the same features that are available in much later version of Rudy. They include garbage collection, classes with inheritance, iterators, object oriented design, closures, exception handling, and mixins. All of these features are still in the version of Ruby.
+
+In December 1996, Ruby Version 1.0 was official released once again to Japanese domestic newsgroups. It was not until after the release of Ruby Version 1.3 in 1999 that Ruby started gaining ground in English speaking countries. In fact, at that time, Ruby-Talk was the first English mailing list for Ruby. It marked a turning point for Ruby as a growing programming interest outside of Japan.
+
+Ruby’s biggest turning point happened about six years later in 2005 when Ruby on Rails was created. Ruby on Rails is a web application framework written entirely in Ruby. Later that same year, Apple decided to bundle and ship it with the new Mac OS X operating system, Leopard. Once it started shipping with the Leopard operating system, interest in Ruby exploded.
+
+Many newsgroups and online forums were created for the sole purpose of talking about Ruby and how to improve the programming language in the next version. Although there is a small core of computer programmers who are the main developers of Ruby, many people help in its development.
+
+In 2011, the latest stable version of Ruby was released. Version 1.9.3 is the latest version and was released around the world at the same time.
+        Source: http://www.gunnertech.com/2011/11/the-history-of-ruby/
+    </string>
+    <string name="perl_history">Larry Wall, the creator of Perl, first posted Perl to the `comp.sources\' Usenet newsgroup in late 1987. Larry had created Perl as a text processing language for Unix-like operating systems. Before Perl, almost all text processing on Unix-like systems was done with a conglomeration of tools that included AWK, `sed\', the various shell programming languages, and C programs. Larry wanted to fill the void between "manipulexity" (the ability of languages like C to "get into the innards of things") and "whipuptitude" (the property of programming languages like AWK or `sh\' that allows programmers to quickly write useful programs).
+
+Thus, Perl, the Practical Extraction and Report Language (12), was born. Perl filled a niche that no other tool before that date had. For this reason, users flocked to Perl.
+
+
+Over the next four years or so, Perl began to evolve. By 1992, Perl version 4 had become very stable and was a "standard" Unix programming language. However, Perl was beginning to show its limitations. Various aspects of the language were confusing at best, and problematic at worst. Perl worked well for writing small programs, but writing large software applications in Perl was unwieldy.
+
+The designers of the Perl language, now a group, but still under Larry\'s guidance, took a look around at the other languages that people were using. They seemed to ask themselves: "Why are people choosing other languages over Perl?" The outcome of this self-inspection was Perl, version 5.
+
+The first release of version 5 came in late 1994. Many believed that version 5 made Perl "complete". Gone were the impediments and much of the confusion that were prevalent in version 4. With version 5, Perl was truly a viable, general purpose programming language and no longer just a convenient tool for system administrators.
+ Source: </string>
+    <string name="python_history">Python is a high-level, general purpose programming language that focuses on code readability.</string>
+    <string name="php_history">PHP is a server-side scripting language used by over 35% of all websites.</string>
+    <string name="csharp_history">C# is similar to Java in terms of syntax; it is an object-oriented language from Microsoft that started around 1997. C# also known as C sharp is available to run on multiple platforms, such as Windows, UNIX, Linux and Solaris.
+C# uses the Microsoft .NET framework and the Mono framework to be interpreted and translated into a language that is capable of running fast on any computer. C sharp is the third most popular language to be use with these frameworks and it is the most popular .NET language used today by .NET programmers.
+Anders Hejlsberg was the lead architect and principal designer of C#, he was involved with the design of Turbo Pascal, Embarcadero Delphi and Visual J++ before the creation of C sharp. The design of C# was driven by flaws in most major programming languages such as C++, Java, Delphi and Smalltalk, according to Anders Hejlsberg.
+C# however, was called an imitation of Java, by James Gosling, the creator of Java programming language and the co-founder of Microsystems Bill Joy, the originator of Java. Gosling went on to say that C# doesn’t have the reliability, productivity and security features that Java can offer programmers.
+Anders Hejlsberg argues that C# is much closer to C++ in its design than to Java, but the authors of C++ Klaus Kreft and Angelika Langer claimed in a blog post that Java and C# are almost identical programming languages; they said that the language was a “boring repetition that lacks innovation," "Hardly anybody will claim that Java or C# are revolutionary programming languages that changed the way we write programs," and "C# borrowed a lot from Java”.
+But C# language was intended to be a simple, modern, general-purpose, object-oriented programming language.
+Software robustness, durability, and programmer productivity are important for this language to achieve. The originators of the language wanted the language, and implementations of it to provide support for software engineering by doing tasks that some languages require to be done with long processes such as doing uninitialized variables, and automatic garbage collection.
+The language makes it easier for network wide deployments and reduces the amount of redundant code because it takes advantage of software maintained on the computer as building blocks.
+Support for international languages is very important for C sharp as well, because hosted and embedded systems, ranging from the very large that use sophisticated operating systems, down to the very small having dedicated functions are intended to be suitable for writing applications with C#.
+The language was not intended to compete directly on performance and size with C, C++ or assembly language, but C# applications are also intended to be economical with regard to memory and processing power requirements.
+        Source: http://www.hernandocadett.com/content/brief-history-c-sharp
+    </string>
+    <string name="vbscript_history">VBScript is an Active Scripting language modeled on Visual Basic.</string>
+    <string name="javascript_history">JavaScript is a dynamic programming language commonly used to allow client-side scripts to interact with users of web browsers.</string>
+    <string name="html_history">HTML is the standard markup language used to create web pages.</string>
+    <string name="sql_history">SQL is a special-purpose programming language that is designed for managing data held in relational database management.</string>
+    <string name="vb_history">Before Visual Basic 1.0 was introduced to the world in 1991, developers had to be well versed in C++ programming, as well as the rudimentary building blocks (Windows API) of the Windows system itself. This complexity meant that only the dedicated and properly trained were capable of turning out software that could run on Windows. Visual Basic changed all of that, and it has been estimated that there are now as many lines of production code written in Visual Basic as in any other language.
+
+Visual Basic changed the face of Windows programming by removing the complex burden of writing code for the user interface (UI). By allowing programmers to draw their own UI, it freed them to concentrate on the business problems they were trying to solve. Once the UI is drawn, the programmer can then add code to react to events.
+
+Visual Basic has also been extensible from the very beginning. Third-party vendors quickly saw the market for reusable modules to aid developers. These modules, or controls, were original referred to as VBXs (named after their file extension). If you didn\'t like the way a button behaved you could either buy or create your own. However, these controls had to be written in C or C++. Database access utilities were some of the first controls available.
+
+When Microsoft introduced Visual Basic 3.0, the programming world changed again. Now you could build database applications directly accessible to users (so called front-end applications) completely with Visual Basic. There was no need to rely on third-party controls. Microsoft accomplished this task with the introduction of the Data Access Objects (DAO), which allowed programmers to manipulate data with the same ease as manipulating the user interface.
+
+Versions 4.0 and 5.0 extended the capabilities of version 3.0 in order to allow developers to target the new Windows 95 platform. Crucially they also made it easier for developers to write code, which could then be manipulated in order to be used by other language developers. Version 6.0 gave us a new way to access databases with the integration of ActiveX Data Objects (ADO). ADO was developed by Microsoft to aid web developers using Active Server Pages to access databases. With all of the improvements to Visual Basic over the years, it ensured its dominant place in the programming world. It helps developers write robust and maintainable applications in record time.
+        Source: http://f1tutorials.com/tutorials/introduction_to_visual_basic_6/chapter1/chapter1.2.php
+    </string>
+    <string name="mongodb_history">MongoDB was created by the founders of DoubleClick. Since leaving DoubleClick, they founded a number of startups and kept running into the same scaling problems over and over. They decided to try to create an application stack that would scale out easily, as companies everywhere seemed to be running into the same issues.
+
+In Fall 2007, they founded 10gen and started working on an application platform for the cloud, similar to Google App Engine. The 10gen engine’s main language was server-side JavaScript, so the scalable database they were designing for it (proto-MongoDB) was also JavaScript-y.
+
+The 10gen appengine was called ed (for Eliot and Dwight) and the database was called p (for platform). In the summer of 2008, someone decided that they needed real names, so they came up with Babble for the app engine and MongoDB for the database. The name “Mongo” was, originally, from Blazing Saddles (it was back-named to humongous). I hated the name from the start and knew that it was slang for “mongoloid.”  I sent an email to the list, no one responded, so I gave up.  Now I know to make a ruckus.
+
+Correction 07/01/2013: Dwight commented below, I was mistaken about the original of the name “Mongo:”
+
+Actually the name choice really does come from the word humongous. A couple years earlier a naming consultant showed me a list of 50 names for potential companies and consumer web products, and it was in that deck, and the point made was that it connoted “big”. But as you say some folks joked about the movie reference when we gave that name to the db, and I didn’t elaborate on the logic behind the naming at the time I would guess. I certainly didn’t in my mind make a negative association about the name at the time; my last encounter with it before that point was probably in Shrek 2. I knew it was campy but it was just a piece of the tech stack at first, not then a big standalone product and technology as it is today. Of course I now know that in some parts of the world it’s an odd choice — apologies about that to those of you in those locales.
+The problem was, no one cared about Google App Engine and certainly no one cared about 10gen’s app engine. Developers would say, “well, the database is cool, but blech, app engine.”
+
+After a year of work and practically no users, we ripped the database out of the app engine and open sourced them. Immediately, MongoDB started getting users. We saw the IRC channel creep up from 20 users to 30 to 40… (as of this writing there are 250 people in the room).
+
+We have a large and growing number of community contributors and 10gen has hired a bunch of incredible programmers, including a former Oracle kernel dev (who worked on some of the first distributed systems in the world) and a guy who worked on Google’s BigTable.
+
+The last year and a half has been incredibly cool. Not only are thousands of people using our programs, but people are building things on top of them, such as Casbah, Morphia, MongoMapper, Mongoose, CandyGram, MongoKit, Mongoid,Ming, MongoEngine, Pymongo-Bongo, ActiveMongo, Morph, and MongoRecord (very, very incomplete list). People have also been integrating it with various existing projects, such as Drupal, Doctrine, Django, ActiveRecord, Lighttd, and NGINX (again, there are tons of others). The community has also written dozens of drivers for everything from C# to Erlang to Go.
+Source: http://www.kchodorow.com/blog/2010/08/23/history-of-mongodb/
+        
+    </string>
+    <string name="objectivec_history">Created primarily by Brad Cox and Tom Love, both employees of Stepstone, Objective-C can be traced back to the early 1980s. Building upon Smalltalk, one of the first object-oriented language, Cox’s fascination with problems of reusability in software design and programming resulted in the creation of the language. Recognizing that compatibility with C was crucial to the success of the project, Cox began writing a pre-processor for C to add backward compatibility with C, which soon grew into an object-oriented extension to the C language.
+
+Cox showed that the construction of interchangeable software components really only needed a few practical changes to existing conventions. Objects needed to be supported in a more flexible manner, which would work in conjunction with a usable set of libraries, allowing for code to be bundled into a single cross-platform format.
+
+To commercialize their creation, the dynamic duo created Productivity Products International, which allowed for the sale of an Objective-C compiler with class libraries.  In 1986, Cox published a book about the language entitled Object-Oriented Programming, An Evolutionary Approach. Although the main focus of the instructional text was to point out the issue of reusability, Objective-C has been compared feature-for-feature with the major players in the programming game every since.
+
+
+After Steve Jobs’ departure from Apple, he started a new company called NeXT. In 1988, NeXT licensed Objective-C from the owner of the trademark, releasing its own Objective-C compiler and libraries on which the NeXTstep UI and interface builder were based. The innovative nature of this graphics-based interface creation resulted in the creation of the first web browser on a NeXTstep system.
+
+With Apple’s acquisition of NeXT in 1996, Apple used OpenStep, the standard that Steve Jobs pushed forward based on the Objective-C libraries he so vehemently supported, to build Mac OS X. This included a new developer tool that was later replaced by Xcode as well as a design tool called Interface Builder. Most of Apple’s present-day Cocoa API is based on NeXTstep interface objects.
+
+At the Worldwide Developers Conference in 2006, Apple announced Objective-C 2.0, a revision of Objective-C that included syntax enhancements, performance improvements, and 64-bit support. Mac OS X officially included a 2.0-enabled compiler in October 2007. It is unclear at this time whether these language changes will be available in the GNU runtime, or if they will be implemented to be compliant with the larger Objective-C 2.0 standard.
+        Source: http://www.technobuffalo.com/2011/03/27/introduction-to-ios-development-an-overview-of-objective-c/
+    </string>
+    
+    
 
 </resources>
