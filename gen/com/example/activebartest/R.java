@@ -862,6 +862,7 @@ containing a value of this type.
         public static final int abc_search_url_text_normal=0x7f070000;
         public static final int abc_search_url_text_pressed=0x7f070002;
         public static final int abc_search_url_text_selected=0x7f070001;
+        public static final int button_text=0x7f070004;
     }
     public static final class dimen {
         /**  Default height of an action bar. 
@@ -1079,14 +1080,17 @@ containing a value of this type.
         public static final int abc_textfield_searchview_right_holo_light=0x7f020056;
         public static final int arrow_down=0x7f020057;
         public static final int arrow_right=0x7f020058;
-        public static final int groupindicator=0x7f020059;
-        public static final int ic_action_search=0x7f02005a;
-        public static final int ic_action_sort_by_size=0x7f02005b;
-        public static final int ic_launcher=0x7f02005c;
+        public static final int bkg=0x7f020059;
+        public static final int groupindicator=0x7f02005a;
+        public static final int ic_action_search=0x7f02005b;
+        public static final int ic_action_sort_by_size=0x7f02005c;
+        public static final int ic_launcher=0x7f02005d;
+        public static final int normal=0x7f02005e;
+        public static final int pressed=0x7f02005f;
     }
     public static final class id {
-        public static final int action1=0x7f050046;
-        public static final int action2=0x7f050047;
+        public static final int action1=0x7f050047;
+        public static final int action2=0x7f050048;
         public static final int action_bar=0x7f05001c;
         public static final int action_bar_activity_content=0x7f050015;
         public static final int action_bar_container=0x7f05001b;
@@ -1098,9 +1102,9 @@ containing a value of this type.
         public static final int action_menu_divider=0x7f050016;
         public static final int action_menu_presenter=0x7f050017;
         public static final int action_mode_close_button=0x7f050024;
-        public static final int action_search=0x7f050044;
-        public static final int action_settings=0x7f050043;
-        public static final int action_sort=0x7f050045;
+        public static final int action_search=0x7f050045;
+        public static final int action_settings=0x7f050044;
+        public static final int action_sort=0x7f050046;
         public static final int activity_chooser_view_content=0x7f050025;
         public static final int always=0x7f05000b;
         public static final int beginning=0x7f050011;
@@ -1135,6 +1139,7 @@ containing a value of this type.
         public static final int radio=0x7f05002f;
         public static final int result_text=0x7f050041;
         public static final int result_text1=0x7f050042;
+        public static final int rowTextView=0x7f050043;
         public static final int search_badge=0x7f050032;
         public static final int search_bar=0x7f050031;
         public static final int search_button=0x7f050033;
@@ -1271,9 +1276,12 @@ containing a value of this type.
         public static final int action_settings=0x7f0a000e;
         public static final int action_sort=0x7f0a0016;
         public static final int app_name=0x7f0a000d;
+        public static final int cpp_description=0x7f0a0034;
         public static final int cpp_hello_world=0x7f0a001b;
+        public static final int csharp_description=0x7f0a0039;
         public static final int csharp_hello_world=0x7f0a0025;
         public static final int extra_object=0x7f0a0012;
+        public static final int html_description=0x7f0a003c;
         public static final int html_hello_world=0x7f0a002a;
         public static final int installing_cpp=0x7f0a001a;
         public static final int installing_csharp=0x7f0a0024;
@@ -1281,21 +1289,38 @@ containing a value of this type.
         public static final int installing_java=0x7f0a0017;
         public static final int installing_javascript=0x7f0a0027;
         public static final int installing_jdk=0x7f0a0018;
+        public static final int installing_mongodb=0x7f0a002f;
+        public static final int installing_objectivec=0x7f0a0031;
         public static final int installing_perl=0x7f0a0020;
         public static final int installing_php=0x7f0a0022;
         public static final int installing_python=0x7f0a001c;
         public static final int installing_ruby=0x7f0a001e;
         public static final int installing_sql=0x7f0a002b;
+        public static final int installing_vb=0x7f0a002d;
+        public static final int java_description=0x7f0a0033;
         public static final int java_hello_world=0x7f0a0019;
+        public static final int javascript_description=0x7f0a003b;
         public static final int javascript_hello_world=0x7f0a0028;
+        public static final int mongodb_description=0x7f0a003f;
+        public static final int mongodb_hello_world=0x7f0a0030;
+        public static final int objectivec_description=0x7f0a0040;
+        public static final int objectivec_hello_world=0x7f0a0032;
+        public static final int perl_description=0x7f0a0036;
         public static final int perl_hello_world=0x7f0a0021;
+        public static final int php_description=0x7f0a0038;
         public static final int php_hello_world=0x7f0a0023;
+        public static final int python_description=0x7f0a0037;
         public static final int python_hello_world=0x7f0a001d;
+        public static final int ruby_description=0x7f0a0035;
         public static final int ruby_hello_world=0x7f0a001f;
+        public static final int sql_description=0x7f0a003d;
         public static final int sql_hello_world=0x7f0a002c;
         public static final int title_activity_history=0x7f0a0013;
         public static final int title_activity_language_options=0x7f0a0011;
         public static final int title_activity_results=0x7f0a0010;
+        public static final int vb_description=0x7f0a003e;
+        public static final int vb_hello_world=0x7f0a002e;
+        public static final int vbscript_description=0x7f0a003a;
         public static final int vbscript_hello_world=0x7f0a0026;
     }
     public static final class style {

@@ -3,12 +3,14 @@ package com.example.activebartest;
 import java.util.ArrayList;
 
 import android.content.Intent;
+import android.graphics.Color;
 import android.net.Uri;
 import android.os.Bundle;
 import android.support.v7.app.ActionBarActivity;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.view.ViewGroup;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
@@ -38,9 +40,8 @@ public class LanguageOptions extends ActionBarActivity {
 		optionsList.add("History of " + name);
 		optionsList.add("Installing " + name);
 		optionsList.add("Your First Program");
-
-		ArrayAdapter listAdapter = new ArrayAdapter(this,
-				R.layout.option_list_item, optionsList);
+		
+		MyListAdapter listAdapter = new MyListAdapter(this, optionsList);
 		listview.setAdapter(listAdapter);
 		registerListClick();
 		

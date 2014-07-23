@@ -58,7 +58,7 @@ public class HomeActivity extends ActionBarActivity implements
 
 		//Java
 				Language java = new Language("Java");//,"Compiled"
-				java.setDescription("This is a discription for Java");
+				java.setDescription(getString(R.string.java_description));
 				java.setHistory("This is the history about Java");
 				java.setLangURL(getString(R.string.installing_java));
 				java.setProgramURL(getString(R.string.java_hello_world));
@@ -277,7 +277,6 @@ public class HomeActivity extends ActionBarActivity implements
 	@Override
 	public boolean onQueryTextSubmit(String s) {
 
-		// String result = s.toLowerCase();
 		String result = s.trim();
 		Intent intent = new Intent(this, SearchActivity.class);
 		intent.putExtra(EXTRA_NAME, result);

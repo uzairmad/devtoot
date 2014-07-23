@@ -14,8 +14,8 @@ import android.widget.TextView;
 public class CustomAdapter extends BaseExpandableListAdapter {
 
 	private Context context;
-	String parentList[] = {"Compiled", "Interpreted", "Web Languages",
-			"Database"};
+	String parentList[] = {"Compiled Languages", "Interpreted Languages", "Web Languages",
+			"Database Languages"};
 
 	//Insert languages based on type location in specified arrays within multiarray
 	static String childList[][] = {	   
@@ -55,7 +55,7 @@ public class CustomAdapter extends BaseExpandableListAdapter {
 
 		tv.setText(childList[groupPosition][childPosition]);
 		tv.setPadding(30, 10, 10, 10);
-	
+		tv.setTextSize(20);
 		
 
 		return tv;
@@ -96,7 +96,7 @@ public class CustomAdapter extends BaseExpandableListAdapter {
 		tv.setBackgroundColor(Color.parseColor("#3059AC")); //cobaltish
 		tv.setTextColor(Color.parseColor("#D8D8DB")); //light grey
 		
-		
+		tv.setTextSize(25);
 		tv.setPadding(50, 20, 20, 20);
 		
 
