@@ -1,4 +1,5 @@
-package com.example.activebartest;
+package com.ummkjd.devtoot;
+
 
 import android.content.Intent;
 import android.net.Uri;

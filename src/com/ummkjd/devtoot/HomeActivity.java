@@ -1,8 +1,7 @@
-package com.example.activebartest;
+package com.ummkjd.devtoot;
 
 import java.util.ArrayList;
 import java.util.Collections;
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.view.MenuItemCompat;
@@ -22,7 +21,7 @@ import android.widget.TextView;
 
 public class HomeActivity extends ActionBarActivity implements
 		SearchView.OnQueryTextListener {
-	public final static String EXTRA_NAME = "com.example.activebartest.NAME";
+	public final static String EXTRA_NAME = "com.ummkjd.devtoot.NAME";
 	SearchView mSearchView;
 	ExpandableListView exp;
 	ListView listview;

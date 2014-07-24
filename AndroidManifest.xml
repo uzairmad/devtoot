@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.activebartest"
+    package="com.ummkjd.devtoot"
     android:versionCode="1"
     android:versionName="1.0" >
 
@@ -14,7 +14,7 @@
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
         <activity
-            android:name="com.example.activebartest.HomeActivity"
+            android:name="com.ummkjd.devtoot.HomeActivity"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -23,19 +23,19 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.example.activebartest.SearchActivity"
+            android:name="com.ummkjd.devtoot.SearchActivity"
             android:label="@string/title_activity_results" 
-             android:parentActivityName="com.example.activebartest.HomeActivity">
+             android:parentActivityName="com.ummkjd.devtoot.HomeActivity">
                 <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.example.activebartest.HomeActivity" />
         </activity>
         <activity
-            android:name="com.example.activebartest.LanguageOptions"
+            android:name="com.ummkjd.devtoot.LanguageOptions"
             android:label="@string/title_activity_language_options" >
         </activity>
         <activity
-            android:name="com.example.activebartest.HistoryActivity"
+            android:name="com.ummkjd.devtoot.HistoryActivity"
             android:label="@string/title_activity_history" >
         </activity>
     </application>
