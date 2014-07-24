@@ -10,7 +10,10 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
 import android.widget.TextView;
-
+/*
+ * MyListAdapter is a custom ArrayAdapter that is used to format a ListView in
+ * the LangageOptions class
+ */
 public class MyListAdapter extends ArrayAdapter<String> {
 
 	Context context;

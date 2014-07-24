@@ -12,7 +12,11 @@ import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.TextView;
 
-//Search SearchActivity class, should display ONE result
+/*
+ * SearchActivity is the results screen of the app. It displays a clickable text
+ * result based on if the query was in the static languagearray. Otherwise
+ * it displays a not found messages
+ */
 public class SearchActivity extends ActionBarActivity {
 	TextView tx;
 	int index = 0;

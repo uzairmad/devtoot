@@ -4,7 +4,11 @@ import java.util.Comparator;
 
 import android.os.Parcel;
 import android.os.Parcelable;
-
+/*
+ * Language is a custom holder class that contains String data pertaining to a 
+ * particular Language. It contains methods to pass the object of this class and 
+ * manipulate its data
+ */
 public class Language implements Parcelable {
 
 	String name;

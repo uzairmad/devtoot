@@ -10,7 +10,10 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseExpandableListAdapter;
 import android.widget.TextView;
-
+/*
+ * CustomeAdapter is a custom implementation of an expandablelist adapter
+ * It sets the view look and feel and contains String data to display
+ */
 public class CustomAdapter extends BaseExpandableListAdapter {
 
 	private Context context;

@@ -7,7 +7,10 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.ListView;
 import android.widget.TextView;
-
+/*
+ * HistoryActivity is a class that handles the display for the History option. 
+ * It instantiates textview to display text retrieved from the static languagearray
+ */
 public class HistoryActivity extends ActionBarActivity {
 	
 	TextView tv;

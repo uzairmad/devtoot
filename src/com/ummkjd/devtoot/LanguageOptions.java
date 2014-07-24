@@ -15,7 +15,11 @@ import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 import android.widget.TextView;
-
+/*
+ * LanguageOptions is a screen that displays in a ListView the language
+ * options for a particular selected language. Data is retrieved from the static
+ * langauge srray
+ */
 public class LanguageOptions extends ActionBarActivity {
 
 	ListView listview;

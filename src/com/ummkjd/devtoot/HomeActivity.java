@@ -18,7 +18,11 @@ import android.widget.ExpandableListView;
 import android.widget.ExpandableListView.OnChildClickListener;
 import android.widget.ListView;
 import android.widget.TextView;
-
+/*
+ * HomeActivity is the main screen of the app. It handles the alphabetical and 
+ * type views and instantiates the languagearray to contain all the language objects,
+ * the values of which are retrieved from XML
+ */
 public class HomeActivity extends ActionBarActivity implements
 		SearchView.OnQueryTextListener {
 	public final static String EXTRA_NAME = "com.ummkjd.devtoot.NAME";
@@ -39,7 +43,7 @@ public class HomeActivity extends ActionBarActivity implements
 		CustomAdapter myadapter = new CustomAdapter(this);
 		exp.setAdapter(myadapter);
 		registerExpandListClick();
-
+		
 		exp.setVisibility(View.GONE); // set listview to show by default
 	}
 
@@ -48,15 +52,16 @@ public class HomeActivity extends ActionBarActivity implements
 		// TODO Auto-generated method stub
 		super.onResume();
 		listViewArrayList = new ArrayList<String>();
-		languageArray = new ArrayList<Language>();
-		loadLangArray();
-	
+		languageArray = new ArrayList<Language>();			
 		listview = (ListView) findViewById(R.id.listView_test);
+				
+		loadLangArray(); //Moved down
 		ArrayAdapter listAdapter = new ArrayAdapter(this,
 				R.layout.video_list_item, listViewArrayList);
 		listview.setAdapter(listAdapter);
-
 		registerListViewClick(); // register listview
+		
+		
 	}
 
 	public void loadLangArray() {
@@ -245,10 +250,12 @@ public class HomeActivity extends ActionBarActivity implements
 
 						listview.setVisibility(View.GONE);
 						exp.setVisibility(View.VISIBLE);
+			
 					} else if (popID == R.id.action2) { // alpha
 
 						exp.setVisibility(View.GONE);
 						listview.setVisibility(View.VISIBLE);
+				
 					}
 
 					return true;
