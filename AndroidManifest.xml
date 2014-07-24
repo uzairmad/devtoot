@@ -24,7 +24,11 @@
         </activity>
         <activity
             android:name="com.example.activebartest.SearchActivity"
-            android:label="@string/title_activity_results" >
+            android:label="@string/title_activity_results" 
+             android:parentActivityName="com.example.activebartest.HomeActivity">
+                <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.activebartest.HomeActivity" />
         </activity>
         <activity
             android:name="com.example.activebartest.LanguageOptions"

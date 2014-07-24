@@ -26,20 +26,24 @@ public class HomeActivity extends ActionBarActivity implements
 	SearchView mSearchView;
 	ExpandableListView exp;
 	ListView listview;
-	public static ArrayList<Language> languageArray = new ArrayList<Language>();
-	ArrayList<String> listViewArrayList = new ArrayList<String>();
+	public static ArrayList<Language> languageArray;
+	ArrayList<String> listViewArrayList;
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
+	}
 
+	@Override
+	protected void onResume() {
+		// TODO Auto-generated method stub
+		super.onResume();
+		listViewArrayList = new ArrayList<String>();
+		languageArray = new ArrayList<Language>();
+		loadLangArray();
 		exp = (ExpandableListView) findViewById(R.id.expandableListView_test);
 		listview = (ListView) findViewById(R.id.listView_test);
-
-		loadLangArray(); // instantiate and fill languageArray with Language
-							// objects AND listview arraylist
-
 		ArrayAdapter listAdapter = new ArrayAdapter(this,
 				R.layout.video_list_item, listViewArrayList);
 		listview.setAdapter(listAdapter);
@@ -51,7 +55,6 @@ public class HomeActivity extends ActionBarActivity implements
 
 		exp.setVisibility(View.GONE); // set listview to show by default
 		registerListViewClick(); // register listview
-
 	}
 
 	public void loadLangArray() {
@@ -151,7 +154,12 @@ public class HomeActivity extends ActionBarActivity implements
 		Language vbscript = new Language("VBScript");// ,"Interpreted"
 		vbscript.setDescription(getString(R.string.vbscript_description));
 		vbscript.setHistory(getString(R.string.vbscript_history));
-		vbscript.setLangURL(getString(R.string.installing_vbscript));//added link to webpage about vbsript
+		vbscript.setLangURL(getString(R.string.installing_vbscript));// added
+																		// link
+																		// to
+																		// webpage
+																		// about
+																		// vbsript
 		vbscript.setProgramURL(getString(R.string.vbscript_hello_world));
 
 		languageArray.add(java); // add objects to Language arrayList
@@ -168,7 +176,7 @@ public class HomeActivity extends ActionBarActivity implements
 		languageArray.add(javascript);
 		languageArray.add(objectivec);
 		languageArray.add(ruby);
-		
+
 		Collections.sort(languageArray, new Language.NameComparator());
 
 		// add name to ListView ordered list view
@@ -210,7 +218,7 @@ public class HomeActivity extends ActionBarActivity implements
 		// automatically handle clicks on the Home/Up button, so long
 		// as you specify a parent activity in AndroidManifest.xml.
 		int id = item.getItemId();
-		if  (id == R.id.action_search) {
+		if (id == R.id.action_search) {
 
 			mSearchView.setIconified(false);
 
