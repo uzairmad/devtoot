@@ -32,6 +32,15 @@ public class HomeActivity extends ActionBarActivity implements
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
+		
+		exp = (ExpandableListView) findViewById(R.id.expandableListView_test);
+
+		// /expandable list stuff
+		CustomAdapter myadapter = new CustomAdapter(this);
+		exp.setAdapter(myadapter);
+		registerExpandListClick();
+
+		exp.setVisibility(View.GONE); // set listview to show by default
 	}
 
 	@Override
@@ -41,18 +50,12 @@ public class HomeActivity extends ActionBarActivity implements
 		listViewArrayList = new ArrayList<String>();
 		languageArray = new ArrayList<Language>();
 		loadLangArray();
-		exp = (ExpandableListView) findViewById(R.id.expandableListView_test);
+	
 		listview = (ListView) findViewById(R.id.listView_test);
 		ArrayAdapter listAdapter = new ArrayAdapter(this,
 				R.layout.video_list_item, listViewArrayList);
 		listview.setAdapter(listAdapter);
 
-		// /expandable list stuff
-		CustomAdapter myadapter = new CustomAdapter(this);
-		exp.setAdapter(myadapter);
-		registerExpandListClick();
-
-		exp.setVisibility(View.GONE); // set listview to show by default
 		registerListViewClick(); // register listview
 	}
 
