@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-	<color name="blue">#3059AC</color>
+
+    <color name="blue">#3059AC</color>
+
     <string name="app_name">DevToot</string>
     <string name="action_settings">Settings</string>
     <string name="action_search"></string>
@@ -27,13 +29,14 @@
     <string name="installing_csharp">https://www.youtube.com/watch?v=x_9lfHjYtVg</string>
     <string name="csharp_hello_world">https://www.youtube.com/watch?v=krxYDsee2cQ</string>
     <string name="vbscript_hello_world">https://www.youtube.com/watch?v=NwIOuZZqolE</string>
+    <string name="installing_vbscript">http://www.ehow.com/how_8669784_install-vbscript.html</string>
     <string name="installing_javascript">https://www.youtube.com/watch?v=-jWxiPWcsoY</string>
     <string name="javascript_hello_world">https://www.youtube.com/watch?v=21zG6Lsfe0k</string>
     <string name="installing_html">https://www.youtube.com/watch?v=ixONl1iMucs</string>
     <string name="html_hello_world">https://www.youtube.com/watch?v=NQ20m7FOt3Y</string>
     <string name="installing_sql">https://www.youtube.com/watch?v=4WEFTQ3VJNg</string>
     <string name="sql_hello_world">https://www.youtube.com/watch?v=hBBFQgZsWiQ</string>
-     <string name="installing_vb">https://www.youtube.com/watch?v=rew_iMkZ3aw</string>
+    <string name="installing_vb">https://www.youtube.com/watch?v=rew_iMkZ3aw</string>
     <string name="vb_hello_world">https://www.youtube.com/watch?v=1mg3NHwGkas</string>
     <string name="installing_mongodb">https://www.youtube.com/watch?v=QcP4XExUpfA</string>
     <string name="mongodb_hello_world">https://www.youtube.com/watch?v=V2L8bUhZq6o</string>
@@ -53,23 +56,18 @@
     <string name="vb_description">Visual Basic is an event driven language focused on rapid graphical user interface development.</string>
     <string name="mongodb_description">MongoDB is a cross-platform NoSQL database language that is free and open-source.</string>
     <string name="objectivec_description">Objective C is a general-purpose, object-oriented programming language used for creating iOS and OS X applications.</string>
-    
     <string name="java_history">Java was developed in 1990 by Sun engineer James Gosling as a language that would serve as the brains for smart appliances (interactive TVs, omniscient ovens). Gosling was unhappy with the results he was getting by writing programs with C++, another programming language, so he holed up in his office and wrote a new language to better suit his needs.
 Gosling named his new language Oak after a tree he could see from his office window; it went by the name Green later, and was later renamed Java, from Java coffee, said to be consumed in large quantities by the language\'s creators. The language was part of Sun\’s strategy to make millions when interactive TV became a multimillion-dollar industry. That still hasn’t happened today, but something completely different took place for Gosling\’s new language.
 In a fortuitous circumstance that World Wide Web became popular, many of the qualities that made Gosling\’s language good on its appliance project made it suitable for adaptation to the Web. Sun developers devised a way for programs to be run safely from web pages and chose a catchy new name to accompany the language\’s new focus: Java.
 Although Java can be used for many other things, the Web provided the showcase it needed to capture international attention. A programmer who puts a Java program on a web page makes it instantly accessible to the entire Web-surfing planet. Because Java was the first technology that could offer this capability, it became the first computer language to receive star treatment in the media.
 Java is a general-purpose, concurrent, class-based, object-oriented language that is specifically designed to have as few implementation dependencies as possible. It is intended to let application developers "write once, run anywhere" (WORA), meaning that code that runs on one platform does not need to be recompiled to run on another. Java is currently one of the most popular programming languages in use, particularly for client-server web applications, with a reported 10 million users. 
-Source: http://bpptik.kominfo.go.id/index.php/en/article/143-a-brief-history-of-java
-        
-    </string>
+Source: http://bpptik.kominfo.go.id/index.php/en/article/143-a-brief-history-of-java</string>
     <string name="cpp_history">In the early 1970s, Dennis Ritchie of Bell Laboratories was engaged in a project to develop a new operating system.  Ritchie discovered that in order to accomplish his task he needed the use of a programming language that was concise and that produced compact and speedy programs. This need led Ritchie to develop the programming language called C.
 
      In the early 1980\'s, also at Bell Laboratories, another programming language was created which was based upon the C language.  This new language was developed by Bjarne Stroustrup and was called C++.  Stroustrup states that the purpose of C++ is to make writing good programs easier and more pleasant for the individual programmer.  When he designed C++, he added OOP (Object Oriented Programming) features to C without significantly changing the C component.  Thus C++ is a "relative" (called a superset) of C, meaning that any valid C program is also a valid C++ program.
 
      There are several versions of the C++ language, of which Visual C++ is only one.  Other dialects include Borland C++, Turbo C++, and Code Warrior (Mac).  All of these software packages enable you to create computer programs with C++, but they all implement the C++ language in a slightly different manner.  In an attempt to maintain portability of both the C and C++ languages, the American National Standards Institute (ANSI) developed a standard of consistency for C and C++ programming.  While we will be working primarily with this ANSI standard, we will also be examining the idiosyncrasies of Microsoft Visual C++ 6.0.
-     Source: http://mathbits.com/MathBits/CompSci/Introduction/history.htm
-        
-    </string>
+     Source: http://mathbits.com/MathBits/CompSci/Introduction/history.htm</string>
     <string name="ruby_history">The history of Ruby is interesting. Ruby is a general purpose object oriented programming language that is written in C. It was built combining features of four other programming languages:  Smarttalk, Eiffel, Lisp, and Perl. Ruby programmers took the best of each those four programming languages and combined them to create Ruby.
 
 Ruby was designed with simplicity in mind. The Ruby programmers did not want individual programmers to re-invent the wheel for common tasks over and over. They wanted a programming language that could easily re-create common tasks. The only reason to have to program a common task was if the programmer wanted to step outside the normal functions of Ruby.
@@ -89,8 +87,7 @@ Ruby’s biggest turning point happened about six years later in 2005 when Ruby 
 Many newsgroups and online forums were created for the sole purpose of talking about Ruby and how to improve the programming language in the next version. Although there is a small core of computer programmers who are the main developers of Ruby, many people help in its development.
 
 In 2011, the latest stable version of Ruby was released. Version 1.9.3 is the latest version and was released around the world at the same time.
-        Source: http://www.gunnertech.com/2011/11/the-history-of-ruby/
-    </string>
+        Source: http://www.gunnertech.com/2011/11/the-history-of-ruby/</string>
     <string name="perl_history">Larry Wall, the creator of Perl, first posted Perl to the `comp.sources\' Usenet newsgroup in late 1987. Larry had created Perl as a text processing language for Unix-like operating systems. Before Perl, almost all text processing on Unix-like systems was done with a conglomeration of tools that included AWK, `sed\', the various shell programming languages, and C programs. Larry wanted to fill the void between "manipulexity" (the ability of languages like C to "get into the innards of things") and "whipuptitude" (the property of programming languages like AWK or `sh\' that allows programmers to quickly write useful programs).
 
 Thus, Perl, the Practical Extraction and Report Language (12), was born. Perl filled a niche that no other tool before that date had. For this reason, users flocked to Perl.
@@ -105,8 +102,7 @@ The first release of version 5 came in late 1994. Many believed that version 5 m
     <string name="python_history">The history of the Python programming language dates back to the late 1980s.
 Python was conceived in the late 1980s and its implementation was started in December 1989 by Guido van Rossum at CWI in the Netherlands as a successor to the ABC programming language capable of exception handling and interfacing with the Amoeba operating system. Van Rossum is Python\'s principal author, and his continuing central role in deciding the direction of Python is reflected in the title given to him by the Python community, Benevolent Dictator for Life (BDFL).
 Python 2.0 was released on 16 October 2000, with many major new features including a full garbage collector and support for unicode. However, the most important change was to the development process itself, with a shift to a more transparent and community-backed process. Python 3.0, a major, backwards-incompatible release, was released on 3 December 2008 after a long period of testing. Many of its major features have also been backported to the backwards-compatible Python 2.6 and 2.7.
-Source: http://en.wikipedia.org/wiki/History_of_Python        
-    </string>
+Source: http://en.wikipedia.org/wiki/History_of_Python        </string>
     <string name="php_history">PHP development began in 1994 when the developer Rasmus Lerdorf wrote a series of Common Gateway Interface (CGI) Perl scripts, which he used to maintain his personal homepage. The tools performed tasks such as displaying his résumé and recording his web traffic. He rewrote these scripts in C for performance reasons, extending them to add the ability to work with web forms and to communicate with databases, and called this implementation "Personal Home Page/Forms Interpreter" or PHP/FI.
 PHP/FI could be used to build simple, dynamic web applications. Lerdorf initially announced the release of PHP/FI as "Personal Home Page Tools (PHP Tools) version 1.0" publicly to accelerate bug location and improve the code, on the Usenet discussion group comp.infosystems.www.authoring.cgi on June 8, 1995. This release already had the basic functionality that PHP has as of 2013. This included Perl-like variables, form handling, and the ability to embed HTML. The syntax resembled that of Perl but was simpler, more limited and less consistent.
 Early PHP was not intended to be a new programming language, and grew organically, with Lerdorf noting in retrospect: "I don\’t know how to stop it, there was never any intent to write a programming language I have absolutely no idea how to write a programming language, I just kept adding the next logical step on the way.” A development team began to form and, after months of work and beta testing, officially released PHP/FI 2 in November 1997.
@@ -116,8 +112,7 @@ On May 22, 2000, PHP 4, powered by the Zend Engine 1.0, was released. As of Augu
 On July 13, 2004, PHP 5 was released, powered by the new Zend Engine II. PHP 5 included new features such as improved support for object-oriented programming, the PHP Data Objects (PDO) extension (which defines a lightweight and consistent interface for accessing databases), and numerous performance enhancements. In 2008 PHP 5 became the only stable version under development. Late static binding had been missing from PHP and was added in version 5.3.
 Many high-profile open-source projects ceased to support PHP 4 in new code as of February 5, 2008, because of the GoPHP5 initiative, provided by a consortium of PHP developers promoting the transition from PHP 4 to PHP 5.
 PHP interpreters are available on most existing 32-bit and 64-bit operating systems, either by building them from the PHP source code, or by using pre-built binaries. For the PHP versions 5.3 and 5.4, the only available Microsoft Windows binary distributions were 32-bit x86 builds, requiring Windows 32-bit compatibility mode while using Internet Information Services (IIS) on a 64-bit Windows platform. PHP version 5.5 made the 64-bit x86-64 builds available for Microsoft Windows.
-        Source: http://en.wikipedia.org/wiki/PHP#PHP_6_and_Unicode
-    </string>
+        Source: http://en.wikipedia.org/wiki/PHP#PHP_6_and_Unicode</string>
     <string name="csharp_history">C# is similar to Java in terms of syntax; it is an object-oriented language from Microsoft that started around 1997. C# also known as C sharp is available to run on multiple platforms, such as Windows, UNIX, Linux and Solaris.
 C# uses the Microsoft .NET framework and the Mono framework to be interpreted and translated into a language that is capable of running fast on any computer. C sharp is the third most popular language to be use with these frameworks and it is the most popular .NET language used today by .NET programmers.
 Anders Hejlsberg was the lead architect and principal designer of C#, he was involved with the design of Turbo Pascal, Embarcadero Delphi and Visual J++ before the creation of C sharp. The design of C# was driven by flaws in most major programming languages such as C++, Java, Delphi and Smalltalk, according to Anders Hejlsberg.
@@ -128,16 +123,13 @@ Software robustness, durability, and programmer productivity are important for t
 The language makes it easier for network wide deployments and reduces the amount of redundant code because it takes advantage of software maintained on the computer as building blocks.
 Support for international languages is very important for C sharp as well, because hosted and embedded systems, ranging from the very large that use sophisticated operating systems, down to the very small having dedicated functions are intended to be suitable for writing applications with C#.
 The language was not intended to compete directly on performance and size with C, C++ or assembly language, but C# applications are also intended to be economical with regard to memory and processing power requirements.
-        Source: http://www.hernandocadett.com/content/brief-history-c-sharp
-    </string>
+        Source: http://www.hernandocadett.com/content/brief-history-c-sharp</string>
     <string name="vbscript_history">VBScript began as part of the Microsoft Windows Script Technologies, launched in 1996. This technology (which also included JScript) was initially targeted at web developers. During a period of just over two years, VBScript advanced from version 1.0 to 2.0, and over that time it gained support from Windows system administrators seeking an automation tool more powerful than the batch language first developed in the early 1980s.
 On March 6, 1988, Alan Cooper showed Bill Gates his shell prototype that allowed widgets to be added dynamically. On March 20, 1991, Microsoft adopted "Quick Basic". This allowed users to create Windows apps quickly and easily with a GUI. Finally, on August 1, 1996, Internet Explorer was made with features that included VBScript.
 In version 5.0, the functionality of VBScript was increased with new features including regular expressions; classes; the With statement; the Eval, Execute, and ExecuteGlobal functions to evaluate and execute script commands built during the execution of another script; a function-pointer system via GetRef, and Distributed COM (DCOM) support.
 In version 5.5, SubMatches were added to the regular expression class in VBScript, to finally allow script authors to capture the text within the expression\'s groups. That capability had already been available in JScript.
 With the advent of the .NET framework, the scripting team took the decision to implement future support for VBScript within ASP.NET for web development, and therefore no new versions of the VBScript engine would be developed. It would henceforth be supported by Microsoft\'s Sustaining Engineering Team, who are responsible for bug fixes and security enhancements. For Windows system administrators, Microsoft suggests migrating to Windows PowerShell. However, the scripting engine will continue to be shipped with future releases of Microsoft Windows and IIS.
-Source: http://en.wikipedia.org/wiki/VBScript#History
-        
-    </string>
+Source: http://en.wikipedia.org/wiki/VBScript#History</string>
     <string name="javascript_history">JavaScript, not to be confused with Java, was created in 10 days in May 1995 by Brendan Eich, then working at Netscape and now of Mozilla. JavaScript was not always known as JavaScript: the original name was Mocha, a name chosen by Marc Andreessen, founder of Netscape. In September of 1995 the name was changed to LiveScript, then in December of the same year, upon receiving a trademark license from Sun, the name JavaScript was adopted. This was somewhat of a marketing move at the time, with Java being very popular around then.
 In 1996 - 1997 JavaScript was taken to ECMA to carve out a standard specification, which other browser vendors could then implement based on the work done at Netscape. The work done over this period of time eventually led to the official release of ECMA-262 Ed.1: ECMAScript is the name of the official standard, with JavaScript being the most well known of the implementations. ActionScript 3 is another well-known implementation of ECMAScript, with extensions (see below).
 The standards process continued in cycles, with releases of ECMAScript 2 in 1998 and ECMAScript 3 in 1999, which is the baseline for modern day JavaScript. The "JS2" or "original ES4" work led by Waldemar Horwat (then of Netscape, now at Google) started in 2000 and at first, Microsoft seemed to participate and even implemented some of the proposals in their JScript.net language.
@@ -148,18 +140,14 @@ Alas, there was still turmoil between the various players; Doug Crockford — th
 While all of this was happening the open source and developer communities set to work to revolutionize what could be done with JavaScript. This community effort was sparked in 2005 when Jesse James Garrett released a white paper in which he coined the term Ajax, and described a set of technologies, of which JavaScript was the backbone, used to create web applications where data can be loaded in the background, avoiding the need for full page reloads and resulting in more dynamic applications. This resulted in a renaissance period of JavaScript usage spearheaded by open source libraries and the communities that formed around them, with libraries such as Prototype, jQuery, Dojo and Mootools and others being released.
 In July of 2008 the disparate parties on either side came together in Oslo. This led to the eventual agreement in early 2009 to rename ECMAScript 3.1 to ECMAScript 5 and drive the language forward using an agenda that is known as Harmony.
 All of this then brings us to today, with JavaScript entering a completely new and exciting cycle of evolution, innovation and standardisation, with new developments such as the Nodejs platform, allowing us to use JavaScript on the server-side, and HTML5 APIs to control user media, open up web sockets for always-on communication, get data on geographical location and device features such as accelerometer, and more. It is an exciting time to learn JavaScript.
-Source: https://www.w3.org/community/webed/wiki/A_Short_History_of_JavaScript
-        
-    </string>
+Source: https://www.w3.org/community/webed/wiki/A_Short_History_of_JavaScript</string>
     <string name="html_history">In 1980, physicist Tim Berners-Lee, who was a contractor at CERN, proposed and prototyped ENQUIRE, a system for CERN researchers to use and share documents. In 1989, Berners-Lee wrote a memo proposing an Internet-based hypertext system. Berners-Lee specified HTML and wrote the browser and server software in late 1990. That year, Berners-Lee and CERN data systems engineer Robert Cailliau collaborated on a joint request for funding, but the project was not formally adopted by CERN. In his personal notes from 1990 he listed "some of the many areas in which hypertext is used" and put an encyclopedia first.
 The first publicly available description of HTML was a document called "HTML Tags", first mentioned on the Internet by Berners-Lee in late 1991. It describes 18 elements comprising the initial, relatively simple design of HTML. Except for the hyperlink tag, these were strongly influenced by SGMLguid, an in-house SGML-based documentation format at CERN. Eleven of these elements still exist in HTML 4.
 HyperText Markup Language is a markup language that web browsers use to interpret and compose text, images and other material into visual or audible web pages. Default characteristics for every item of HTML markup are defined in the browser, and these characteristics can be altered or enhanced by the web page designer\'s additional use of CSS. Many of the text elements are found in the 1988 ISO technical report TR 9537 Techniques for using SGML, which in turn covers the features of early text formatting languages such as that used by the RUNOFF command developed in the early 1960s for the CTSS (Compatible Time-Sharing System) operating system: these formatting commands were derived from the commands used by typesetters to manually format documents. However, the SGML concept of generalized markup is based on elements (nested annotated ranges with attributes) rather than merely print effects, with also the separation of structure and markup; HTML has been progressively moved in this direction with CSS.
 Berners-Lee considered HTML to be an application of SGML. It was formally defined as such by the Internet Engineering Task Force (IETF) with the mid-1993 publication of the first proposal for an HTML specification: "Hypertext Markup Language (HTML)" Internet-Draft by Berners-Lee and Dan Connolly, which included an SGML Document Type Definition to define the grammar. The draft expired after six months, but was notable for its acknowledgment of the NCSA Mosaic browser\'s custom tag for embedding in-line images, reflecting the IETF\'s philosophy of basing standards on successful prototypes. Similarly, Dave Raggett\'s competing Internet-Draft, "HTML+ (Hypertext Markup Format)", from late 1993, suggested standardizing already-implemented features like tables and fill-out forms.
 After the HTML and HTML+ drafts expired in early 1994, the IETF created an HTML Working Group, which in 1995 completed "HTML 2.0", the first HTML specification intended to be treated as a standard against which future implementations should be based.
 Further development under the auspices of the IETF was stalled by competing interests. Since 1996, the HTML specifications have been maintained, with input from commercial software vendors, by the World Wide Web Consortium (W3C). However, in 2000, HTML also became an international standard (ISO/IEC 15445:2000). HTML 4.01 was published in late 1999, with further errata published through 2001. In 2004 development began on HTML5 in the Web Hypertext Application Technology Working Group (WHATWG), which became a joint deliverable with the W3C in 2008.
-Source: http://en.wikipedia.org/wiki/HTML
-        
-    </string>
+Source: http://en.wikipedia.org/wiki/HTML</string>
     <string name="sql_history">Prior to the release of the first relational database management system (RDBMS), each database had a unique physical structure and a unique programming language that the programmer had to understand. That all changed with the advent of SQL and the relational database management system.
 
 Figure 1-8 lists the important events in the history of SQL. In 1970, Dr. E. F. Codd published an article that described the relational database model he had been working on with a research team at IBM. By 1978, the IBM team had developed a database system based on this model, called System/R, along with a query language called SEQUEL (Structured English Query Language). Although the database and query language were never officially released, IBM remained committed to the relational model.
@@ -171,9 +159,7 @@ In 1982, IBM released its first commercial SQL-based RDBMS, called SQL/DS (SQL/D
 During the 1980s, other SQL-based database systems, including SQL Server, were developed. Although each of these systems used SQL as its query language, each implementation was unique. That began to change in 1989, when the American National Standards Institute (ANSI) published its first set of standards for a database query language. These standards have been revised a few times since then, most recently in 2011. As each database manufacturer has attempted to comply with these standards, their implementations of SQL have become more similar. However, each still has its own dialect of SQL that includes additions, or extensions, to the standards.
 
 Although you should be aware of the SQL standards, they will have little effect on your job as a SQL programmer. The main benefit of the standards is that the basic SQL statements are the same in each dialect. As a result, once you’ve learned one dialect, it’s relatively easy to learn another. On the other hand, porting applications that use SQL from one database to another isn’t as easy as it should be. In fact, any non-trivial application will require at least modest modifications.
-Source: http://www.w3computing.com/sqlserver/brief-history-sql/
-        
-    </string>
+Source: http://www.w3computing.com/sqlserver/brief-history-sql/</string>
     <string name="vb_history">Before Visual Basic 1.0 was introduced to the world in 1991, developers had to be well versed in C++ programming, as well as the rudimentary building blocks (Windows API) of the Windows system itself. This complexity meant that only the dedicated and properly trained were capable of turning out software that could run on Windows. Visual Basic changed all of that, and it has been estimated that there are now as many lines of production code written in Visual Basic as in any other language.
 
 Visual Basic changed the face of Windows programming by removing the complex burden of writing code for the user interface (UI). By allowing programmers to draw their own UI, it freed them to concentrate on the business problems they were trying to solve. Once the UI is drawn, the programmer can then add code to react to events.
@@ -183,8 +169,7 @@ Visual Basic has also been extensible from the very beginning. Third-party vendo
 When Microsoft introduced Visual Basic 3.0, the programming world changed again. Now you could build database applications directly accessible to users (so called front-end applications) completely with Visual Basic. There was no need to rely on third-party controls. Microsoft accomplished this task with the introduction of the Data Access Objects (DAO), which allowed programmers to manipulate data with the same ease as manipulating the user interface.
 
 Versions 4.0 and 5.0 extended the capabilities of version 3.0 in order to allow developers to target the new Windows 95 platform. Crucially they also made it easier for developers to write code, which could then be manipulated in order to be used by other language developers. Version 6.0 gave us a new way to access databases with the integration of ActiveX Data Objects (ADO). ADO was developed by Microsoft to aid web developers using Active Server Pages to access databases. With all of the improvements to Visual Basic over the years, it ensured its dominant place in the programming world. It helps developers write robust and maintainable applications in record time.
-        Source: http://f1tutorials.com/tutorials/introduction_to_visual_basic_6/chapter1/chapter1.2.php
-    </string>
+        Source: http://f1tutorials.com/tutorials/introduction_to_visual_basic_6/chapter1/chapter1.2.php</string>
     <string name="mongodb_history">MongoDB was created by the founders of DoubleClick. Since leaving DoubleClick, they founded a number of startups and kept running into the same scaling problems over and over. They decided to try to create an application stack that would scale out easily, as companies everywhere seemed to be running into the same issues.
 
 In Fall 2007, they founded 10gen and started working on an application platform for the cloud, similar to Google App Engine. The 10gen engine’s main language was server-side JavaScript, so the scalable database they were designing for it (proto-MongoDB) was also JavaScript-y.
@@ -201,9 +186,7 @@ After a year of work and practically no users, we ripped the database out of the
 We have a large and growing number of community contributors and 10gen has hired a bunch of incredible programmers, including a former Oracle kernel dev (who worked on some of the first distributed systems in the world) and a guy who worked on Google’s BigTable.
 
 The last year and a half has been incredibly cool. Not only are thousands of people using our programs, but people are building things on top of them, such as Casbah, Morphia, MongoMapper, Mongoose, CandyGram, MongoKit, Mongoid,Ming, MongoEngine, Pymongo-Bongo, ActiveMongo, Morph, and MongoRecord (very, very incomplete list). People have also been integrating it with various existing projects, such as Drupal, Doctrine, Django, ActiveRecord, Lighttd, and NGINX (again, there are tons of others). The community has also written dozens of drivers for everything from C# to Erlang to Go.
-Source: http://www.kchodorow.com/blog/2010/08/23/history-of-mongodb/
-        
-    </string>
+Source: http://www.kchodorow.com/blog/2010/08/23/history-of-mongodb/</string>
     <string name="objectivec_history">Created primarily by Brad Cox and Tom Love, both employees of Stepstone, Objective-C can be traced back to the early 1980s. Building upon Smalltalk, one of the first object-oriented language, Cox’s fascination with problems of reusability in software design and programming resulted in the creation of the language. Recognizing that compatibility with C was crucial to the success of the project, Cox began writing a pre-processor for C to add backward compatibility with C, which soon grew into an object-oriented extension to the C language.
 
 Cox showed that the construction of interchangeable software components really only needed a few practical changes to existing conventions. Objects needed to be supported in a more flexible manner, which would work in conjunction with a usable set of libraries, allowing for code to be bundled into a single cross-platform format.
@@ -216,9 +199,6 @@ After Steve Jobs’ departure from Apple, he started a new company called NeXT. 
 With Apple’s acquisition of NeXT in 1996, Apple used OpenStep, the standard that Steve Jobs pushed forward based on the Objective-C libraries he so vehemently supported, to build Mac OS X. This included a new developer tool that was later replaced by Xcode as well as a design tool called Interface Builder. Most of Apple’s present-day Cocoa API is based on NeXTstep interface objects.
 
 At the Worldwide Developers Conference in 2006, Apple announced Objective-C 2.0, a revision of Objective-C that included syntax enhancements, performance improvements, and 64-bit support. Mac OS X officially included a 2.0-enabled compiler in October 2007. It is unclear at this time whether these language changes will be available in the GNU runtime, or if they will be implemented to be compliant with the larger Objective-C 2.0 standard.
-        Source: http://www.technobuffalo.com/2011/03/27/introduction-to-ios-development-an-overview-of-objective-c/
-    </string>
-    
-    
+        Source: http://www.technobuffalo.com/2011/03/27/introduction-to-ios-development-an-overview-of-objective-c/</string>
 
 </resources>

@@ -151,7 +151,7 @@ public class HomeActivity extends ActionBarActivity implements
 		Language vbscript = new Language("VBScript");// ,"Interpreted"
 		vbscript.setDescription(getString(R.string.vbscript_description));
 		vbscript.setHistory(getString(R.string.vbscript_history));
-		vbscript.setLangURL("http://www.ehow.com/how_8669784_install-vbscript.html");// Check this might crash
+		vbscript.setLangURL(getString(R.string.installing_vbscript));//added link to webpage about vbsript
 		vbscript.setProgramURL(getString(R.string.vbscript_hello_world));
 
 		languageArray.add(java); // add objects to Language arrayList
