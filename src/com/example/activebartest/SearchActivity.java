@@ -49,7 +49,7 @@ public class SearchActivity extends ActionBarActivity {
 			
 		} else {
 			//no results
-			tx.setText("No Result Found For" + resultLang);
+			tx.setText("No Result Found For " + resultLang);
 
 		}
 
@@ -86,14 +86,7 @@ public class SearchActivity extends ActionBarActivity {
 	}
 
 	@Override
-	public boolean onOptionsItemSelected(MenuItem item) {
-		// Handle action bar item clicks here. The action bar will
-		// automatically handle clicks on the Home/Up button, so long
-		// as you specify a parent activity in AndroidManifest.xml.
-		int id = item.getItemId();
-		if (id == R.id.action_settings) {
-			return true;
-		}
+	public boolean onOptionsItemSelected(MenuItem item) {		
 		return super.onOptionsItemSelected(item);
 	}
 
